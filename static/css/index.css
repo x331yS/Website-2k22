@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
-
 html {
     background-color: #343232;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+}
+
+body {
+    margin: 0;
+}
+.section-1 {
+    width: 100vw;
+    height: 100vh;
 }
 h1 {
     padding: 0;
@@ -54,10 +61,7 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-
-
 }
-
 @keyframes typing {
     from {
         width: 0
