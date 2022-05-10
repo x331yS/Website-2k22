@@ -3,12 +3,12 @@
     margin: 0 0 5px 0;
 }
 
-.nav {
+.nav-down {
     position: absolute;
     height: 340px;
     top: 120vh;
-    left:0;
-    right:10vw;
+    left:400vh;
+    /*right:10vw;*/
     bottom:0;
     margin: auto;
     text-align:center;

@@ -1,0 +1,14 @@
+.contact {
+    margin-top: 40vh;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.contact::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: 0 0 0 0;
+    background-color: #6e6e70;
+}

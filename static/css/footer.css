@@ -1,0 +1,23 @@
+.social::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: 0 0 0 1vh;
+    background-color: #6e6e70;
+}
+
+li a svg {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.social {
+    margin-top: 40vh;
+    list-style-image: initial;
+    list-style-type: none;
+}
+li {
+    padding-bottom: 10px;
+}
