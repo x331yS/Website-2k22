@@ -1,0 +1,44 @@
+.vertical-writing {
+    writing-mode: vertical-rl;
+    margin: 0 0 5px 0;
+}
+
+.nav {
+    position: absolute;
+    height: 340px;
+    top: 120vh;
+    left:0;
+    right:10vw;
+    bottom:0;
+    margin: auto;
+    text-align:center;
+}
+
+
+.chevron {
+    display:block;
+    width: 24px;
+    height: 24px;
+    margin:-40px auto 30px auto;
+    animation: pulse 2s infinite;
+    display:block;
+    color: #fff;
+    opacity: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translate(0, 10px);
+        opacity: 0.99;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+}
