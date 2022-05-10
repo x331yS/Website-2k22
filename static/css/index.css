@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+html {
+    background-color: #343232;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+#text1, #text2 {
+    position: absolute;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.front-text {
+    margin-left: 20rem;
+    margin-top: 10rem;
+
+}
+.tag {
+    color: #6e6e70;
+    position: absolute;
+    left: 20rem;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+
+.html {
+    top: 3rem;
+}
+.body {
+    top: 6rem;
+    left: 23rem;
+}
+.gray-text {
+    margin-left: 20rem;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    font-style: italic;
+    margin-top: 4rem;
+    display: block;
+    color: #8d8d8d;
+}
+.typing-demo {
+    width: 60ch;
+    animation: typing 5s steps(60), blink .4s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.html::before {
+    content: "<html>";
+}
+.body::before {
+    content: "<body>";
+}
+.p::before {
+    content: "<p>";
+}
+
+.p_end::before {
+    top: 0;
+    content: "</p>";
+}
+
