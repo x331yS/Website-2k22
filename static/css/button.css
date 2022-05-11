@@ -52,7 +52,7 @@
     mask-size: 2300% 100%;
     border: none;
     color: #fff;
-    cursor: pointer;
+    cursor: none;
     -webkit-animation: ani2 0.7s steps(22) forwards;
     animation: ani2 0.7s steps(22) forwards;
 }
@@ -91,7 +91,7 @@
     mask-size: 3000% 100%;
     border: none;
     color: #bfbfc0;
-    cursor: pointer;
+    cursor: none;
     -webkit-animation: ani2 0.7s steps(29) forwards;
     animation: ani2 0.7s steps(29) forwards;
 }
@@ -188,7 +188,7 @@ a {
     mask-size: 7100% 100%;
     border: none;
     color: #fff;
-    cursor: pointer;
+    cursor: none;
     -webkit-animation: ani2 0.7s steps(70) forwards;
     animation: ani2 0.7s steps(70) forwards;
 }

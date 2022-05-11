@@ -1,10 +1,19 @@
 const root = document.querySelector(":root")
 const customPointer = document.querySelector(".custom-pointer");
-
+const button = document.querySelector(".button");
 
 let [pointerX, pointerY, previousPointerX, previousPointerY, angle, previousAngle, angleDisplace] = Array(7).fill(0);
 const degrees = 57.296;
 
+button.addEventListener('mouseover', () => {
+    customPointer.style.filter = 'blur(3px)'
+    root.style.setProperty('--cursor-size', '28px');
+})
+
+button.addEventListener('mouseout', () => {
+    customPointer.style.filter = 'blur(0px)'
+    root.style.setProperty('--cursor-size', '20px');
+})
 
 document.onmousemove = function (event) {
     let distanceX, distanceY;
