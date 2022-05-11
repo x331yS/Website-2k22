@@ -63,11 +63,11 @@
 
 .button-container-2 {
     position: relative;
-    width: 150px;
-    height: 50px;
-    margin-left: auto;
+    width: 350px;
+    height: 100px;
+    margin-left: 24rem  ;
     margin-right: auto;
-    margin-top: 7vh;
+    margin-top: 8vh;
     overflow: hidden;
     border: 1px solid #6e6e70;
     font-family: "Lato", sans-serif;
@@ -109,7 +109,7 @@
     font-weight: 300;
     position: absolute;
     font-size: 11px;
-    margin-top: 17px;
+    margin-top: 42px;
     overflow: hidden;
     font-weight: bold;
 }
