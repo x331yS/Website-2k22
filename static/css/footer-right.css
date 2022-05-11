@@ -3,14 +3,14 @@
     position: absolute;
     list-style-image: initial;
     list-style-type: none;
-    margin: -85vh 0 0 0;
+    margin: -80vh 0 0 0;
 }
 
 .contact::after {
     content: "";
     display: block;
     width: 1px;
-    height: 150px;
-    margin: -18vh -20px 0 0;
+    height: 200px;
+    margin: -24vh -20px 0 0;
     background-color: #6e6e70;
 }

@@ -1,9 +1,10 @@
-.navbar {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 20px 90px;
     width: 100vw;
     position: fixed;
     background-color: #343232;
@@ -11,6 +12,10 @@
 }
 
 .logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -24,7 +29,7 @@
 
 .nav__link {
     margin: 0 10px;
-    color: black;
+    color: white;
     padding: 5px 15px;
     border-radius: 100px;
     transition: all 0.5s ease-in-out;
@@ -33,7 +38,19 @@
 
 .nav__link.active,
 .nav__link:hover {
-    background-color: black;
+    background-color: #504f4f;
     color: white;
 }
 
+.logo-effect{
+
+}
+
+.logo-effect::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: -8vh 0 0 0;
+    background-color: #6e6e70;
+}
