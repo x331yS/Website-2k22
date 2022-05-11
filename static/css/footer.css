@@ -14,7 +14,8 @@ li a svg {
 }
 
 .social {
-    margin-top: 40vh;
+    margin-top: 30vh;
+    margin-left: 3vw;
     list-style-image: initial;
     list-style-type: none;
 }
