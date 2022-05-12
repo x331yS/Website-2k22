@@ -5,6 +5,7 @@ html {
     background-color: #343232;
     font-family: "Open Sans", sans-serif;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 body {
