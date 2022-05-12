@@ -33,7 +33,7 @@ h1 {
 .front-text {
     font-size: 3rem;
     margin-left: 29.5rem;
-    margin-top: 19rem;
+    margin-top: 17rem;
 
 }
 .name {
@@ -57,31 +57,40 @@ h1 {
 
 
 .html {
-    top: 13rem;
+    top: 10rem;
 }
 .body {
-    top: 16rem;
+    top: 13rem;
     left: 23rem;
 }
 .h1 {
     left: 26rem;
-    top: 20rem;
+    top: 17rem;
+}
+.p_start {
+    top: 37rem;
+    left: 30rem;
+}
+
+.p_end {
+    top: 41rem;
+    left: 77.5rem;
 }
 .h1_end {
     left: 92rem;
-    top: 28.5rem;
+    top: 26.5rem;
 }
 .h2 {
-    top: 32rem;
-    left: 26rem;
+    top: 30rem;
+    left: 30rem;
 }
 .h2_end {
-    left: 26rem;
+    left: 30rem;
 }
 
 
 .gray-text {
-    margin-left: 26rem;
+    margin-left: 30rem;
     font-size: 1rem;
     letter-spacing: 4px;
     font-style: italic;
@@ -89,9 +98,11 @@ h1 {
     display: block;
     color: #8d8d8d;
 }
+
+
 .typing-demo {
-    width: 56ch;
-    animation: typing 5s steps(56), blink .4s step-end infinite alternate;
+    width: 58ch;
+    animation: typing 5s steps(58), blink .4s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -134,17 +145,23 @@ h1 {
 .h2_end::before {
     content: "</h2>";
 }
-.p::before {
-    content: "<button>";
+.p_start::before {
+    content: "<p>";
 }
 .button-end::before {
     content: "</button>";
 }
 
 .html-end {
-    top: 41rem;
+    top: 51rem;
 }
-
+.body-end {
+    top: 48rem;
+    left: 23rem;
+}
+.body-end::before {
+    content: "</body>";
+}
 .html-end::before {
     content: "</html>";
 }

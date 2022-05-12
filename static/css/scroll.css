@@ -1,3 +1,35 @@
+.waviy {
+    position: relative;
+    top: 10rem;
+    left: 80rem;
+}
+.waviy span{
+    position: relative;
+    display: inline-block;
+    letter-spacing: -5px;
+    animation: flip 4s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,10% {
+        transform: rotateY(360deg)
+    }
+}
+
+
+.arrow {
+    border: solid #8d8d8d;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
 .vertical-writing {
     writing-mode: vertical-rl;
     margin: 0 0 5px 0;

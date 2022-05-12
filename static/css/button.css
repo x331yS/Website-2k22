@@ -63,10 +63,9 @@
 
 .button-container-2 {
     position: relative;
-    width: 350px;
-    height: 100px;
-    margin-left: 24rem  ;
-    margin-right: auto;
+    width: 700px;
+    height: 80px;
+    margin-left: 33rem  ;
     margin-top: 8vh;
     overflow: hidden;
     /*border: 1px solid #6e6e70;*/
@@ -81,7 +80,7 @@
     height: 100%;
     font-family: "Lato", sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     font-weight: bold;
     background: #504f4f;
@@ -92,12 +91,12 @@
     border: none;
     color: #bfbfc0;
     cursor: none;
-    -webkit-animation: ani2 0.7s steps(29) forwards;
-    animation: ani2 0.7s steps(29) forwards;
+    -webkit-animation: ani2 1s steps(29) forwards;
+    animation: ani2 1s steps(29) forwards;
 }
 .button-container-2 button:hover {
-    -webkit-animation: ani 0.7s steps(29) forwards;
-    animation: ani 0.7s steps(29) forwards;
+    -webkit-animation: ani 1s steps(29) forwards;
+    animation: ani 1s steps(29) forwards;
 }
 
 .mas {
@@ -108,8 +107,8 @@
     font-family: "Lato", sans-serif;
     font-weight: 300;
     position: absolute;
-    font-size: 11px;
-    margin-top: 42px;
+    font-size: 0.8rem;
+    margin-top: 32px;
     overflow: hidden;
     font-weight: bold;
 }
