@@ -17,7 +17,7 @@ function fadeOutEffect() {
 setTimeout(function () {
     loaderDelete()
     fadeInEffect()
-}, 7000);
+}, 5000);
 
 function fadeInEffect() {
     var fadeTarget = document.getElementById("afterloader");

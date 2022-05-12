@@ -1,6 +1,6 @@
 #afterloader {
     opacity: 0;
-    animation-delay: 6s;
+    animation-delay: 4.5s;
     animation-name: fadein;
     animation-duration: 4s;
     /*-webkit-animation: fadein 12s; !* Safari, Chrome and Opera > 12.1 *!*/
