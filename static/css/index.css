@@ -14,10 +14,6 @@ body {
     cursor: none;
     margin: 0;
 }
-
-#afterloader {
-    opacity: 0;
-}
 .section-1 {
     width: 100vw;
     height: 100vh;

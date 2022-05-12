@@ -1,5 +1,3 @@
-const loader = document.getElementById("preloader");
-
 setTimeout(function () {
     fadeOutEffect()
 }, 4000);
@@ -17,8 +15,9 @@ function fadeOutEffect() {
     }, 80);
 }
 setTimeout(function () {
+    loaderDelete()
     fadeInEffect()
-}, 5000);
+}, 7000);
 
 function fadeInEffect() {
     var fadeTarget = document.getElementById("afterloader");
@@ -29,4 +28,9 @@ function fadeInEffect() {
             clearInterval(fadeEffect);
         }
     }, 80);
+}
+
+function loaderDelete() {
+    const loader = document.getElementById("preloader");
+    loader.style.display = "none"
 }
