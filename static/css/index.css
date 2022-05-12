@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
+
 html {
     background-color: #343232;
     font-family: "Open Sans", sans-serif;
@@ -81,7 +82,7 @@ h1 {
 
 .gray-text {
     margin-left: 26rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     font-style: italic;
     margin-top: 2.5rem;
@@ -89,8 +90,8 @@ h1 {
     color: #8d8d8d;
 }
 .typing-demo {
-    width: 60ch;
-    animation: typing 5s steps(60), blink .4s step-end infinite alternate;
+    width: 56ch;
+    animation: typing 5s steps(56), blink .4s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -122,11 +123,18 @@ h1 {
 .h1_end::before {
     content: "</h1>";
 }
+.p::before {
+    content: "<p>";
+}
+
+.p_end::before {
+    content: "</p>";
+}
 
 .h2_end::before {
     content: "</h2>";
 }
-.button-start::before {
+.p::before {
     content: "<button>";
 }
 .button-end::before {

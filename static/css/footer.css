@@ -12,13 +12,22 @@ li a svg {
     height: 20px;
     text-align: center;
 }
+li a {
+    cursor: none;
+}
 
 .social {
+
     margin-top: -5vh;
     margin-left: 3vw;
     list-style-image: initial;
     list-style-type: none;
 }
 li {
+
     padding-bottom: 10px;
+}
+
+li a svg:hover {
+    transform: translateY(-3px);
 }

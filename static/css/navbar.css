@@ -11,12 +11,12 @@
     transition: all 0.5s ease-in-out;
 }
 
-.logo h1 {
+.logo span{
     font-family: 'Poppins', sans-serif;
+    font-size:1vw;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
     margin-top: 10px;
-    cursor: pointer;
 }
 
 .nav__links {
@@ -28,6 +28,7 @@
 }
 
 .nav__link {
+    cursor: none;
     margin: 0 10px;
     color: white;
     padding: 5px 15px;
@@ -42,9 +43,6 @@
     color: white;
 }
 
-.logo-effect{
-
-}
 
 .logo-effect::before {
     content: "";
@@ -54,3 +52,47 @@
     margin: -8vh 0 0 0;
     background-color: #6e6e70;
 }
+.disappear:hover span {
+    /*display: inline-block;*/
+    color:transparent;
+    text-shadow: 0px 0px 0px white;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.disappear span:nth-child(1){
+    animation-name: disappearleft;
+}
+.disappear span:nth-child(2){
+    animation-name: disappearleft;
+    animation-delay: .5s;
+}
+.disappear span:nth-child(3){
+    animation-name: disappearight;
+    animation-delay: .8s;
+}
+.disappear span:nth-child(4){
+    animation-name: disappearleft;
+    animation-delay: 1s;
+}
+.disappear span:nth-child(5){
+    animation-name: disappearight;
+    animation-delay: 1.3s;
+}
+.disappear span:nth-child(6){
+    animation-name: disappearight;
+    animation-delay: 1.5s;
+}
+
+@keyframes disappearleft{
+    50% {transform: skew(50deg) translateY(-200%);
+        text-shadow: 0px 0px 50px;
+        opacity: 0;
+    }
+}
+@keyframes disappearight{
+    50% {transform: skew(-50deg) translateY(-200%);
+        text-shadow: 0px 0px 50px;
+        opacity: 0;
+    }
+}
+
