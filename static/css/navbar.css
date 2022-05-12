@@ -11,15 +11,20 @@
     transition: all 0.5s ease-in-out;
 }
 
+.logo div{
+    padding-left: 50px;
+    margin-top: -40px;
+}
 .logo span{
     font-family: 'Poppins', sans-serif;
     font-size:1vw;
     font-weight: bold;
     letter-spacing: -1px;
-    margin-top: 10px;
+
 }
 
 .nav__links {
+    margin-top: 40px;
     font-family: "La Belle Aurore", sans-serif;
     padding-right: 50px;
     display: flex;

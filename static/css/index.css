@@ -14,6 +14,10 @@ body {
     cursor: none;
     margin: 0;
 }
+
+#afterloader {
+    opacity: 0;
+}
 .section-1 {
     width: 100vw;
     height: 100vh;
@@ -68,12 +72,12 @@ h1 {
     top: 17rem;
 }
 .p_start {
-    top: 37rem;
+    top: 39rem;
     left: 30rem;
 }
 
 .p_end {
-    top: 41rem;
+    top: 43rem;
     left: 77.5rem;
 }
 .h1_end {
@@ -81,7 +85,7 @@ h1 {
     top: 26.5rem;
 }
 .h2 {
-    top: 30rem;
+    top: 31rem;
     left: 30rem;
 }
 .h2_end {
@@ -94,7 +98,7 @@ h1 {
     font-size: 1rem;
     letter-spacing: 4px;
     font-style: italic;
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     display: block;
     color: #8d8d8d;
 }
