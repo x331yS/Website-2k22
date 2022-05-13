@@ -82,7 +82,7 @@ h1 {
     top: 26.5rem;
 }
 .h2 {
-    top: 31rem;
+    top: 33rem;
     left: 30rem;
 }
 .h2_end {
@@ -95,7 +95,7 @@ h1 {
     font-size: 1rem;
     letter-spacing: 4px;
     font-style: italic;
-    margin-top: 3.5rem;
+    margin-top: 5.5rem;
     display: block;
     color: #8d8d8d;
 }
@@ -103,7 +103,8 @@ h1 {
 
 .typing-demo {
     width: 58ch;
-    animation: typing 5s steps(58), blink .4s step-end infinite alternate;
+    animation-delay: 4.5s;
+    animation: typing 5s steps(58) 4.5s, blink .4s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
@@ -154,10 +155,10 @@ h1 {
 }
 
 .html-end {
-    top: 51rem;
+    top: 45rem;
 }
 .body-end {
-    top: 48rem;
+    top: 42rem;
     left: 23rem;
 }
 .body-end::before {

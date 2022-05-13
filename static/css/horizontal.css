@@ -27,12 +27,9 @@
 .one {
     background: #efdefe;
 }
-.two {
-    background: #a3f3d3;
-}
 .three {
-    background-color: #343232;
+    background: linear-gradient(#343232,#3c393d) ;
 }
 .four {
-    background: #3c393d;
+    background: linear-gradient(#343232,#3c393d) ;
 }

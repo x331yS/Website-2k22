@@ -15,16 +15,13 @@ li a svg {
 li a {
     cursor: none;
 }
-
 .social {
-
-    margin-top: -10vh;
+    margin-top: 2vh;
     margin-left: 3vw;
     list-style-image: initial;
     list-style-type: none;
 }
 li {
-
     padding-bottom: 10px;
 }
 
