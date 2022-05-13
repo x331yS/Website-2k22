@@ -25,7 +25,7 @@
     display:none;
 }
 .one {
-    background: #efdefe;
+    background: linear-gradient(#3c393d,var(--bg)) ;
 }
 .three {
     background: linear-gradient(#343232,#3c393d) ;

@@ -3,7 +3,7 @@
 var snow = {
 
     wind : 0,
-    maxXrange : 100,
+    maxXrange : 500,
     minXrange : 10,
     maxSpeed : 2,
     minSpeed : 1,
@@ -84,7 +84,7 @@ var snow = {
 
     getSize : function(){
         this.WIDTH = document.body.clientWidth || window.innerWidth;
-        this.HEIGHT = document.body.clientHeight || window.innerHeight;
+        this.HEIGHT = 2800;
     }
 
 };
