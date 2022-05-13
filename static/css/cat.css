@@ -87,8 +87,8 @@
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    -webkit-animation-duration: 1200ms;
-    animation-duration: 1200ms;
+    -webkit-animation-duration: 8000ms;
+    animation-duration: 8000ms;
 }
 
 path#f1-l1 {
@@ -387,14 +387,14 @@ path#f3-l9 {
 #paw-right--down,
 #paw-left--up,
 #paw-left--down {
-    -webkit-animation: blinkcat 300ms infinite;
-    animation: blinkcat 300ms infinite;
+    -webkit-animation: blinkcat 400ms infinite;
+    animation: blinkcat 400ms infinite;
 }
 
 #paw-right--up,
 #paw-left--down {
-    -webkit-animation-delay: 150ms;
-    animation-delay: 150ms;
+    -webkit-animation-delay: 200ms;
+    animation-delay: 200ms;
 }
 
 @-webkit-keyframes blinkcat {
@@ -421,6 +421,20 @@ path#f3-l9 {
     }
 }
 
+.nrv {
+    stroke-width: 7;
+    opacity: 0;
+    animation-name: eyebrows;
+    animation-duration: 12s;
+    animation-delay: 22s;
+    animation-iteration-count: 1;
+    animation-fill-mode:forwards;
+}
+
+@keyframes eyebrows {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 #laptop__code {
     transform: rotateX(-34deg) rotateY(-46deg) rotateZ(-23deg) translateX(8px) translateY(20px) translateZ(-60px);
