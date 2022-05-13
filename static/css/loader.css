@@ -5,7 +5,8 @@ preloader
 /**!*/
 #preloader {
     overflow: hidden;
-    background: #343232;
+    background: linear-gradient(#343232,#3c393d) ;
+
     left: 0;
     right: 0;
     top: 0;
