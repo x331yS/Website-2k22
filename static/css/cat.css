@@ -420,7 +420,9 @@ path#f3-l9 {
         opacity: 1;
     }
 }
-
+.sun {
+    opacity: 0;
+}
 .nrv {
     stroke-width: 7;
     opacity: 0;
