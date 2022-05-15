@@ -24,6 +24,7 @@
 ::-webkit-scrollbar {
     display:none;
 }
+
 .one {
     background: linear-gradient(#3c393d,var(--bg)) ;
 }

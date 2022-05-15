@@ -84,7 +84,7 @@ var snow = {
 
     getSize : function(){
         this.WIDTH = document.body.clientWidth || window.innerWidth;
-        this.HEIGHT = 2800;
+        this.HEIGHT = document.body.clientHeight * 3 || window.innerHeight * 3;
     }
 
 };

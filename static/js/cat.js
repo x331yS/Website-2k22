@@ -1,6 +1,6 @@
-var paw_left_down = document.getElementById("paw-left--down");
-var paw_right_down = document.getElementById("paw-right--down");
-var paw_left_up = document.getElementById("paw-left--up");
+const paw_left_down = document.getElementById("paw-left--down");
+const paw_right_down = document.getElementById("paw-right--down");
+const paw_left_up = document.getElementById("paw-left--up");
 
 setTimeout(function () {
     happycat()
