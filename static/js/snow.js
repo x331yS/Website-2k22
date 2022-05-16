@@ -1,5 +1,3 @@
-// d'après http://www.kommunauty.fr/article-727-javascript-de-la-neige-sur-vos-sites-web
-
 var snow = {
 
     wind : 0,
