@@ -11,3 +11,26 @@ document.getElementById("playAudio").addEventListener("click", function(){
     }
 
 });
+
+function github() {
+    if (document.getElementById("github").style.stroke ==='currentcolor') {
+        document.getElementById("github").style.stroke='white';
+    } else {
+        document.getElementById("github").style.stroke = 'currentcolor';
+    }
+}
+
+function instagram() {
+    if (document.getElementById("instagram").style.stroke === 'currentcolor') {
+        document.getElementById("instagram").style.stroke='white';
+    } else {
+        document.getElementById("instagram").style.stroke='currentcolor';
+    }
+}
+function linkedin() {
+    if ( document.getElementById("linkedin").style.stroke === 'currentcolor') {
+        document.getElementById("linkedin").style.stroke='white';
+    } else {
+        document.getElementById("linkedin").style.stroke='currentcolor';
+    }
+}
