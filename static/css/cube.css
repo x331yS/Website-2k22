@@ -1,3 +1,4 @@
+
 .title_cube {
     text-align: center;
     margin: 40px;
@@ -15,7 +16,7 @@
     left: 0;
     width: 200px;
     height: 200px;
-    margin: auto;
+    margin: 12rem 0 0 200rem;
     -webkit-perspective: 600px;
     perspective: 600px;
 }
