@@ -39,7 +39,7 @@
     display: block;
     width: inherit;
     height: inherit;
-    background: url('../assets/img/Scroll1.JPG');
+    background: url('../assets/img/Scroll1.jpg');
     position: absolute;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -54,7 +54,7 @@
 
 .slide_cube.x:after {
     content: '';
-    background-image: url('../assets/img/Scroll1.JPG');
+    background-image: url('../assets/img/Scroll1.jpg');
     -webkit-transform: translateZ(100px) rotateZ(-90deg);
     transform: translateZ(100px) rotateZ(-90deg);
 }
@@ -73,14 +73,14 @@
 
 .slide_cube.y:after {
     content: '';
-    background-image: url('../assets/img/Scroll2.JPG');
+    background-image: url('../assets/img/Scroll2.jpg');
     -webkit-transform: translateZ(100px) scale(-1);
     transform: translateZ(100px) scale(-1);
 }
 
 .slide_cube.y:before {
     content: '';
-    background-image: url('../assets/img/Scroll4.JPG');
+    background-image: url('../assets/img/Scroll4.jpg');
     -webkit-transform: translateZ(-100px);
     transform: translateZ(-100px);
 }
@@ -92,14 +92,14 @@
 
 .slide_cube.z:after {
     content: '';
-    background-image: url('../assets/img/Scroll5.JPG');
+    background-image: url('../assets/img/Scroll5.jpg');
     -webkit-transform: translateZ(100px);
     transform: translateZ(100px);
 }
 
 .slide_cube.z:before {
     content: '';
-    background-image: url('../assets/img/Scroll6.JPG');
+    background-image: url('../assets/img/Scroll6.jpg');
     -webkit-transform: translateZ(-100px);
     transform: translateZ(-100px);
 }
