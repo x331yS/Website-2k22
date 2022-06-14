@@ -34,10 +34,16 @@
 }
 
 .second_h3 {
-    margin: 2rem 0 0 0;
+    margin: 4rem 0 0 0;
 }
 
 .ul_list ul {
     columns: 2;
     margin-top: 1rem;
+}
+.under_cube {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 32rem;
+    left: 200rem;
 }

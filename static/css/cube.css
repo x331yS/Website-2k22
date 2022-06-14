@@ -1,11 +1,5 @@
-
-.title_cube {
-    text-align: center;
+.cube {
     margin: 40px;
-}
-
-.title_cube h1, .title_cube p {
-    margin: 0;
 }
 
 .slider_cube {
@@ -163,9 +157,4 @@
     70%, 80% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
     90%, 99% {-webkit-transform: rotateY(90deg) rotateX(90deg);}
     99.1%, 99.9% {-webkit-transform: rotateY(90deg) rotateX(90deg) translatez(-5px);}
-}
-
-.small_cube {
-    font-size: smaller;
-    opacity: .75;
 }
