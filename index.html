@@ -18,7 +18,6 @@
     <link rel="stylesheet" type="text/css" href="static/css/about-me.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/cube.css"/>
 
-
 </head>
 <audio id="testAudio" hidden src='static/assets/music/music.mp3' type="audio/mpeg"></audio>
 <body>
@@ -59,10 +58,10 @@
                 </div>
 
                 <div class="nav__links">
-                    <a href="#home" class="button active nav__link">01. Home</a>
-                    <a href="#about-me" class="button nav__link">02. About Me</a>
-                    <a href="#contact" class="button nav__link">03. Contact</a>
-                    <a href="#cat" class="button nav__link">04. Cat</a>
+                    <a href="/" class="active nav__link">01. Home</a>
+                    <a href="#about-me" class=" nav__link">02. About Me</a>
+                    <a href="#contact" class="nav__link">03. Contact</a>
+                    <a href="#cat" class="nav__link">04. Cat</a>
                 </div>
             </div>
             <span class="tag html"></span>
@@ -200,15 +199,15 @@
                         <button type="button" name="Hover">School Project</button>
                     </div>
                     <div class="button-container-4">
-                        <span class="mas">School Project</span>
-                        <button type="button" name="Hover">School Project</button>
+                        <span class="mas">Professional Project</span>
+                        <button type="button" name="Hover">Professional Project</button>
                     </div>
 
                 </div>
 
                 <div class="nav-down">
       <span class="chevron">
-          <h3 class="vertical-writing">scroll</h3>
+          <h3 class="vertical-writing"><a class="button scroll-color" href="#contact">scroll</a></h3>
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
              x="0px" y="0px" viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve"
              width="24" height="24"
@@ -384,11 +383,24 @@
 </section>
 
 </body>
+
 <script type="text/javascript" src="static/js/snow.js"></script>
 <script type="text/javascript">
     window.onload = function () {
         snow.init(20);
     };
+</script>
+<script type="text/javascript">
+    const el = document.querySelectorAll('.nav__links a');
+    for (let i = 0; i < el.length; i++) {
+        el[i].onclick = function() {
+            var c = 0;
+            while (c < el.length) {
+                el[c++].className = 'nav__link';
+            }
+            el[i].className = 'active nav__link';
+        };
+    }
 </script>
 <script src="static/js/morph.js"></script>
 <script src="static/js/fade.js"></script>

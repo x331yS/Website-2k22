@@ -57,7 +57,6 @@
     background-color: #6e6e70;
 }
 .disappear:hover span {
-    /*display: inline-block;*/
     color:transparent;
     text-shadow: 0px 0px 0px white;
     animation-duration: 8s;

@@ -6,13 +6,12 @@ html {
     font-family: "Open Sans", sans-serif;
     color: #fff;
     scroll-behavior: smooth;
+    cursor: none;
 }
 
 body {
-    scroll-behavior: smooth;
     width: 100%;
     height: 100vh;
-    cursor: none;
     margin: 0;
 }
 .section-1 {

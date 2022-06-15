@@ -58,3 +58,4 @@ function setDisplacement(dx, dy, px, py, flip = false, dir = 0) {
     }
     customPointer.style.transform = `translate3d(${px}px, ${py}px, 0) rotate(${angleDisplace}deg)`;
 }
+

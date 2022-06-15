@@ -47,3 +47,8 @@
     top: 32rem;
     left: 200rem;
 }
+.scroll-color {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: none;
+}
