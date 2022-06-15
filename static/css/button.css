@@ -182,6 +182,7 @@ a {
 }
 
 .button-container-4 {
+    background: #504f4f;
     position: absolute;
     top: 44rem;
     left: 210rem;
@@ -205,13 +206,13 @@ a {
     font-size: 14px;
     letter-spacing: 1px;
     font-weight: bold;
-    background: #504f4f;
-    -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
-    mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+    background: #3c393d;
+    -webkit-mask: url("../assets/img/nature-sprite-reverse.png");
+    mask: url("../assets/img/nature-sprite-reverse.png");
     -webkit-mask-size: 2300% 100%;
     mask-size: 2300% 100%;
     border: none;
-    color: #ffffff;
+    color: #bfbfc0;
     cursor: none;
     -webkit-animation: ani2 0.7s steps(22) forwards;
     animation: ani2 0.7s steps(22) forwards;
@@ -219,4 +220,8 @@ a {
 .button-container-4 button:hover {
     -webkit-animation: ani 0.7s steps(22) forwards;
     animation: ani 0.7s steps(22) forwards;
+}
+
+.button-container-4 .mas {
+    color: #ffffff;
 }
