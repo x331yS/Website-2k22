@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 .email {
-    margin-left: 95vw;
+    margin-left: 48%;
     font-family: "La Belle Aurore", sans-serif;
     letter-spacing: 2px;
-    /*margin-bottom: 50vh;*/
-    /*position: absolute;*/
+    position: absolute;
 }
