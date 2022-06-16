@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="static/css/cat.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/about-me.css"/>
     <link rel="stylesheet" type="text/css" href="static/css/cube.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/contact.css"/>
 
 </head>
 <audio id="testAudio" hidden src='static/assets/music/music.mp3' type="audio/mpeg"></audio>
@@ -236,7 +237,8 @@
 <section class="slide three">
 </section>
 <section id="contact" class="slide one">
-    <h1>contact</h1>
+    <iframe src="https://my.atlistmaps.com/map/b6ab47de-4be5-4825-b647-b5bc419458e3?share=true" allow="geolocation"
+            width="50%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 </section>
 
 <section id="cat" class="section-cat slide one">
@@ -393,7 +395,7 @@
 <script type="text/javascript">
     const el = document.querySelectorAll('.nav__links a');
     for (let i = 0; i < el.length; i++) {
-        el[i].onclick = function() {
+        el[i].onclick = function () {
             var c = 0;
             while (c < el.length) {
                 el[c++].className = 'nav__link';
