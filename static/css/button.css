@@ -8,7 +8,7 @@
 .button-container-1 {
     position: absolute;
     top: 34rem;
-    left: 190rem;
+    left: 79%;
     width: 250px;
     height: 90px;
     margin-left: auto;
@@ -48,7 +48,7 @@
 .button-container-2 {
     position: absolute;
     top: 34rem;
-    left: 210rem;
+    left: 87%;
     width: 250px;
     height: 90px;
     margin-left: auto;
@@ -144,7 +144,7 @@ a {
 .button-container-3 {
     position: absolute;
     top: 44rem;
-    left: 190rem;
+    left: 79%;
     width: 250px;
     height: 90px;
     margin-left: auto;
@@ -185,7 +185,7 @@ a {
     background: #504f4f;
     position: absolute;
     top: 44rem;
-    left: 210rem;
+    left: 87%;
     width: 250px;
     height: 90px;
     margin-left: auto;
