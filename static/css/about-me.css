@@ -1,22 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
 
-.four ul{
+.four ul {
     list-style: none;
 }
+
 .tag_two {
     color: #6e6e70;
     position: absolute;
-    left: 53%;
+    left: 52%;
     font-style: italic;
     font-size: 1.4rem;
     font-family: 'La Belle Aurore', cursive;
 }
 
 .section {
-    top: 4rem;
+    top: 4%;
 }
+
+.section_end {
+    top: 95%;
+}
+
+.image {
+    left: 82%;
+    top: 12%;
+}
+
+.image_end {
+    left: 89.5%;
+    top: 48%;
+}
+
+.about-me_h2 {
+    top: 8%;
+    left: 53%;
+}
+
+.about-me_h3 {
+    top: 52%;
+    left: 53%;
+}
+
+.about-me_h3_end {
+    top: 68%;
+    left: 65%;
+}
+
+.about-me_h3_second {
+    top: 74.5%;
+    left: 53%;
+}
+
+.about-me_h3_end_second {
+    top: 90%;
+    left: 65%;
+}
+
+.about-me_h2_end {
+    top: 45%;
+    left: 57%;
+}
+
+.about-me_h2::before {
+    content: "<h2>";
+}
+
+.about-me_h3::before, .about-me_h3_second::before {
+    content: "<h3>";
+}
+
+.about-me_h3_end::before, .about-me_h3_end_second::before {
+    content: "</h3>";
+}
+
+.about-me_h2_end::before {
+    content: "</h2>";
+}
+
 .section::before {
     content: "<section>";
+}
+
+.image::before {
+    content: "<img>";
+}
+
+.image_end::before {
+    content: "</img>";
+}
+
+.section_end::before {
+    content: "</section>";
 }
 
 .second_h1 {
@@ -41,17 +115,20 @@
     columns: 2;
     margin-top: 1rem;
 }
+
 .under_cube {
     letter-spacing: 1px;
     position: absolute;
     top: 32rem;
     left: 84%;
 }
+
 .scroll-color {
     color: #ffffff;
     text-decoration: none;
     cursor: none;
 }
+
 .scroll-color_first {
     color: #8d8d8d8d;
     text-decoration: none;
