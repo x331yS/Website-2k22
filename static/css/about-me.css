@@ -28,7 +28,7 @@
     display: block;
     width: 1px;
     height: 100px;
-    margin: -25.5vh 0 0 65vw;
+    margin: -20vh 0 0 65vw;
     background-color: #6e6e70;
 }
 .mark::after {
@@ -37,7 +37,7 @@
     display: block;
     width: 200px;
     height: 1px;
-    margin: -20.5vh 0 0 60vw;
+    margin: -15vh 0 0 60vw;
     background-color: #6e6e70;
 }
 
@@ -79,18 +79,18 @@
 }
 
 .about-me_div_end {
-    top: 68%;
-    left: 65%;
+    top: 67%;
+    left: 64%;
 }
 
 .about-me_div_second {
-    top: 74.5%;
+    top: 71.5%;
     left: 53%;
 }
 
 .about-me_div_end_second {
-    top: 90%;
-    left: 65%;
+    top: 86%;
+    left: 64%;
 }
 
 .about-me_h2_end {
@@ -102,11 +102,13 @@
     content: "<h2>";
 }
 
-.about-me_div::before, .about-me_div_second::before {
+.about-me_div::before,
+.about-me_div_second::before {
     content: "<div>";
 }
 
-.about-me_div_end::before, .about-me_div_end_second::before {
+.about-me_div_end::before,
+.about-me_div_end_second::before {
     content: "</div>";
 }
 

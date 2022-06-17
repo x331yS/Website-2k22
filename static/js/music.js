@@ -1,11 +1,11 @@
 document.getElementById("playAudio").addEventListener("click", function(){
     const audio = document.getElementById('testAudio');
-    if(this.className === 'is-playing'){
-        this.className = "";
+    if(this.className === 'social_list is-playing'){
+        this.className = "social_list";
         document.getElementById("coloring").style.fill='white';
         audio.pause();
     }else{
-        this.className = "is-playing";
+        this.className = "social_list is-playing";
         document.getElementById("coloring").style.fill='currentcolor';
         audio.play();
     }
