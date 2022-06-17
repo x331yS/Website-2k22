@@ -25,7 +25,7 @@
     display:none;
 }
 .project {
-    background-color: #3c393d;
+    background: linear-gradient(180deg, #3c393d 5%,rgba(0,0,0,0) 50%, #3c393d 100%);
 }
 
 .one {
