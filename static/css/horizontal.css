@@ -24,6 +24,9 @@
 ::-webkit-scrollbar {
     display:none;
 }
+.project {
+    background-color: #3c393d;
+}
 
 .one {
     background: linear-gradient(#3c393d,var(--bg)) ;
