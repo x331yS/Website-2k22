@@ -59,10 +59,11 @@
                 </div>
 
                 <div class="nav__links">
+                    <a href="/" class="nav__link">00. Resume</a>
                     <a href="/" class="active nav__link">01. Home</a>
                     <a href="#about-me" class=" nav__link">02. About Me</a>
                     <a href="#contact" class="nav__link">03. Contact</a>
-                    <a href="#cat" class="nav__link">04. Cat</a>
+                    <a href="#cat" class="nav__link">04. Projects</a>
                 </div>
             </div>
             <span class="tag html"></span>
@@ -91,8 +92,8 @@
             <div>
 
                 <ul class="social">
-                    <li id="playAudio">
-                        <a>
+                    <li>
+                        <a class="social_list" id="playAudio">
                             <svg id="coloring" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
                                  class="bi bi-music-note-beamed" viewBox="0 0 16 16">
                                 <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
@@ -102,7 +103,7 @@
                         </a>
                     </li>
                     <li>
-                        <a onclick="github()" href="https://github.com/x33lyS" target="_blank">
+                        <a class="social_list" onclick="github()" href="https://github.com/x33lyS" target="_blank">
                             <svg id="github" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
                                  fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
                                  stroke-linejoin="round" class="feather feather-github"
@@ -112,7 +113,7 @@
                         </a>
                     </li>
                     <li>
-                        <a onclick="instagram()" href="https://www.instagram.com/florian.ljsne/" target="_blank">
+                        <a class="social_list" onclick="instagram()" href="https://www.instagram.com/florian.ljsne/" target="_blank">
                             <svg id="instagram" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
                                  fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
                                  stroke-linejoin="round" class="feather feather-instagram"
@@ -125,7 +126,7 @@
                         </a>
                     </li>
                     <li>
-                        <a onclick="linkedin()" href="https://www.linkedin.com/in/florian-lejosne/" target="_blank">
+                        <a class="social_list" onclick="linkedin()" href="https://www.linkedin.com/in/florian-lejosne/" target="_blank">
                             <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24"
                                  fill="none" stroke="white" stroke-width="2" stroke-linecap="round"
                                  stroke-linejoin="round" class="feather feather-linkedin"
@@ -142,17 +143,17 @@
             </div>
 
         </section>
-        <section id="about-me" class="slide four">
+        <section id="about-me" class="separate slide four">
             <span class="tag_two section"></span>
             <span class="tag_two image"></span>
             <span class="tag_two image_end"></span>
             <span class="tag_two section_end"></span>
             <span class="tag_two about-me_h2"></span>
             <span class="tag_two about-me_h2_end"></span>
-            <span class="tag_two about-me_h3"></span>
-            <span class="tag_two about-me_h3_end"></span>
-            <span class="tag_two about-me_h3_second"></span>
-            <span class="tag_two about-me_h3_end_second"></span>
+            <span class="tag_two about-me_div"></span>
+            <span class="tag_two about-me_div_end"></span>
+            <span class="tag_two about-me_div_second"></span>
+            <span class="tag_two about-me_div_end_second"></span>
 
             <h1 class="second_h1">Who I Am</h1>
             <div class="center">
@@ -203,16 +204,17 @@
                         <button type="button" name="Hover">Latest project</button>
                     </div>
                     <div class="button-container-2">
-                        <span class="mas">Personal Project</span>
-                        <button type="button" name="Hover">Personal Project</button>
+                        <span class="mas">Coding Project</span>
+                        <button type="button" name="Hover">Coding Project</button>
                     </div>
+                    <div class="mark"></div>
                     <div class="button-container-3">
-                        <span class="mas">School Project</span>
-                        <button type="button" name="Hover">School Project</button>
+                        <span class="mas">Music Project</span>
+                        <button type="button" name="Hover">Music Project</button>
                     </div>
                     <div class="button-container-4">
-                        <span class="mas">Professional Project</span>
-                        <button type="button" name="Hover">Professional Project</button>
+                        <span class="mas">Photography Project</span>
+                        <button type="button" name="Hover">Photography Project</button>
                     </div>
 
                 </div>
@@ -400,7 +402,7 @@
 <script type="text/javascript" src="static/js/snow.js"></script>
 <script type="text/javascript">
     window.onload = function () {
-        snow.init(10);
+        snow.init(20);
     };
 </script>
 <script type="text/javascript">
