@@ -7,7 +7,8 @@
     --card-transition-easing: ease;
 }
 
-.projects {
+.projects-slide {
+    position: absolute;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,13 +20,13 @@
     overflow: hidden;
 }
 
-.projects button {
+.projects-slide button {
     border: none;
     background: none;
     cursor: none;
 }
 
-.projects button:focus {
+.projects-slide button:focus {
     outline: none;
     border: none;
 }
