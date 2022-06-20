@@ -32,10 +32,6 @@
     justify-content: center;
     z-index: 100000;
 }
-
-.navDisplay {
-    display: none;
-}
 .nav__link {
     cursor: none;
     margin: 0 10px;

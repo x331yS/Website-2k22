@@ -2,7 +2,7 @@
 
 
 html {
-    background-color: #343232;
+    background-color: #3c393d;
     font-family: "Open Sans", sans-serif;
     color: #fff;
     scroll-behavior: smooth;
@@ -170,7 +170,7 @@ h1 {
 .sticky {
     display: flex;
     position: sticky;
-    top: 0;
+    top: 40px;
     width: 100%;
 }
 
