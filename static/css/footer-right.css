@@ -1,9 +1,8 @@
 .contact {
     z-index: 1000;
-    position: absolute;
     list-style-image: initial;
     list-style-type: none;
-    margin: -20% 0 0 0;
+    margin: 6% 0 0 0;
 }
 
 .contact::after {
