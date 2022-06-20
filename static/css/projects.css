@@ -59,7 +59,7 @@
     height: 100%;
     background: #000;
     z-index: 1;
-    opacity: 0.8;
+    opacity: 0.3;
 }
 
 .app__bg__image {
@@ -313,4 +313,14 @@
 
 .support a:hover {
     transform: scale(1.1);
+}
+
+.project-middle::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100vh;
+    margin: 0 0 0 50%;
+    background-color: #6e6e70;
 }
