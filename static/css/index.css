@@ -166,7 +166,9 @@ h1 {
 .html-end::before {
     content: "</html>";
 }
-
+#projects {
+    visibility: hidden;
+}
 .sticky {
     display: flex;
     position: sticky;

@@ -31,6 +31,8 @@ function fadeInEffect() {
 }
 
 function loaderDelete() {
+    const project = document.getElementById("projects");
     const loader = document.getElementById("preloader");
     loader.style.display = "none"
+    project.style.visibility = "visible";
 }
