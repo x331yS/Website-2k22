@@ -144,6 +144,15 @@
     text-align: center;
 
 }
+.third_h1::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 200px;
+    background-color: #6e6e70;
+    margin: -48px 0 0 76px;
+}
 
 .center {
     font-family: 'Titillium Web', sans-serif;
