@@ -11,10 +11,10 @@
     font-family: "Roboto", sans-serif;
     margin-left: 50%;
     transition: 0.25s;
-    background: url("https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg");
+    background: url("https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg") no-repeat center;
     color: white;
     width: 50%;
-    filter: blur(8px);
+    z-index: -1;
 
 }
 .projects-popup .options {
