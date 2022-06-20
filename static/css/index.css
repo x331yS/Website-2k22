@@ -167,3 +167,10 @@ h1 {
     content: "</html>";
 }
 
+.sticky {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
