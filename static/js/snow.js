@@ -82,7 +82,7 @@ var snow = {
 
     getSize : function(){
         this.WIDTH = document.body.clientWidth || window.innerWidth;
-        this.HEIGHT = document.body.clientHeight * 4 || window.innerHeight * 4;
+        this.HEIGHT = document.body.clientHeight * 5 || window.innerHeight * 5;
     }
 
 };
