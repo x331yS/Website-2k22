@@ -139,6 +139,11 @@
     padding-left: 9rem;
 }
 
+.third_h1 {
+    padding: 3rem 0 0 0;
+    text-align: center;
+}
+
 .center {
     font-family: 'Titillium Web', sans-serif;
     width: 42rem;
