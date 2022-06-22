@@ -20,6 +20,7 @@ Home Slider
 ==================================== */
 
 #home-slider {
+
     height: 90vh;
     width: 100vw;
     position: relative;
@@ -32,27 +33,29 @@ Home Slider
 }
 
 #project-last .swiper-image-one {
-    background-image: url(https://source.unsplash.com/GXOGGENgHnQ/1600x900);
+    filter: none;
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/GXOGGENgHnQ/1600x900");
 }
 
 #project-last .swiper-image-two {
-    background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/Jy6luiLBsrk/1600x900");
 }
 
 #project-last .swiper-image-three {
-    background-image: url(https://source.unsplash.com/sFLVTqNzG2I/1600x900);
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/sFLVTqNzG2I/1600x900");
+
 }
 
 #project-last .swiper-image-four {
-    background-image: url(https://source.unsplash.com/pj1jt4vBGZY/1600x900);
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/pj1jt4vBGZY/1600x900");
 }
 
 #project-last .swiper-image-five {
-    background-image: url(https://source.unsplash.com/Jy6luiLBsrk/1600x900);
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/Jy6luiLBsrk/1600x900");
 }
 
 #project-last .swiper-image-six {
-    background-image: url(https://source.unsplash.com/bxCgan0J1Sg/1600x900);
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://source.unsplash.com/bxCgan0J1Sg/1600x900");
 }
 
 #project-last .swiper-image {
@@ -68,8 +71,8 @@ Home Slider
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: hsla(0, 0%, 0%, 0.2);
-    background-blend-mode: overlay;
+    background-color: hsl(285, 3%, 23%);
+    /*background-blend-mode: overlay;*/
 }
 #project-last .swiper-image-inner.swiper-image-left {
     padding: 4rem;
@@ -86,8 +89,8 @@ Home Slider
     filter: hue-rotate(-60deg);
     transition: all 1s linear;
     transition-delay: 1s;
-    background-color: hsla(0, 0%, 0%, 0.5);
-    background-blend-mode: multiply;
+    background-color: hsl(285, 3%, 23%);
+    /*background-blend-mode: multiply;*/
 }
 #project-last h1 {
     font-family: 'Cormorant Garamond', serif;
@@ -103,6 +106,7 @@ Home Slider
 }
 #project-last h1 span.emphasis {
     font-weight: 700;
+    color: #fff;
     font-style: italic;
     opacity: 0;
     transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 1.2s;
@@ -247,15 +251,18 @@ Home Slider
     margin: 0 auto;
 }
 .swiper-slide {
+    cursor: none;
     -webkit-flex-shrink: 0;
     -ms-flex: 0 0 auto;
     flex-shrink: 0;
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #fff;
+    /*background-color: #fff;*/
     overflow: hidden;
     display: flex;
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%);
+
 
 }
 /* Auto Height */
@@ -290,7 +297,7 @@ Home Slider
     height: 44px;
     margin-top: -22px;
     z-index: 10;
-    cursor: pointer;
+
     background-size: 27px 44px;
     background-position: center;
     background-repeat: no-repeat;
@@ -298,7 +305,7 @@ Home Slider
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
     opacity: 0.35;
-    cursor: auto;
+
     pointer-events: none;
 }
 .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
@@ -364,7 +371,6 @@ button.swiper-pagination-bullet {
     appearance: none;
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    cursor: pointer;
 }
 .swiper-pagination-white .swiper-pagination-bullet {
     background: #fff;
@@ -633,9 +639,6 @@ button.swiper-pagination-bullet {
     border-radius: 10px;
     left: 0;
     top: 0;
-}
-.swiper-scrollbar-cursor-drag {
-    cursor: move;
 }
 /* Preloader */
 .swiper-lazy-preloader {
