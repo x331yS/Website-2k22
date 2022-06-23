@@ -91,7 +91,7 @@ Home Slider
     background-color: hsl(285, 3%, 23%);
     /*background-blend-mode: multiply;*/
 }
-#project-last h1 {
+#project-last .page-wrap h1 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     color: #fff;
