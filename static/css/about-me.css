@@ -28,7 +28,7 @@
     display: block;
     width: 1px;
     height: 100px;
-    margin: -20vh 0 0 65vw;
+    margin: -18vh 0 0 65vw;
     background-color: #6e6e70;
 }
 .mark::after {
@@ -37,7 +37,7 @@
     display: block;
     width: 200px;
     height: 1px;
-    margin: -15vh 0 0 60vw;
+    margin: -13vh 0 0 60vw;
     background-color: #6e6e70;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .section {
-    top: 4%;
+    top: 3%;
 }
 
 .section_end {
@@ -69,32 +69,32 @@
 }
 
 .about-me_h2 {
-    top: 8%;
+    top: 7%;
     left: 53%;
 }
 
 .about-me_div {
-    top: 52%;
+    top: 50%;
     left: 53%;
 }
 
 .about-me_div_end {
-    top: 67%;
+    top: 64%;
     left: 64%;
 }
 
 .about-me_div_second {
-    top: 71.5%;
+    top: 69.5%;
     left: 53%;
 }
 
 .about-me_div_end_second {
-    top: 86%;
+    top: 83%;
     left: 64%;
 }
 
 .about-me_h2_end {
-    top: 45%;
+    top: 44%;
     left: 57%;
 }
 
@@ -135,7 +135,7 @@
 
 .second_h1 {
     font-family: 'Titillium Web', sans-serif;
-    padding-top: 7rem;
+    padding-top: 91px;
     padding-left: 9rem;
 }
 

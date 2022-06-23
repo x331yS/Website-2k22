@@ -1,7 +1,8 @@
 .waviy {
     position: relative;
     top: 15rem;
-    left: 65%;
+    width: fit-content;
+    left: 70%;
 }
 .waviy span{
     position: relative;
