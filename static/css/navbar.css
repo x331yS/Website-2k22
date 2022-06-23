@@ -90,57 +90,84 @@
     animation-delay: 1.5s;
 }
 
+
+/*Second disapear*/
 .disappear_1:hover span {
     animation-duration: 9s;
 }
 
-/*Second disapear*/
-.disappear_1 span:nth-child(7){
+
+.disappear span:nth-child(7){
     animation-name: disappearleft;
     animation-delay: 1.8s;
 }
-.disappear_1 span:nth-child(8){
+.disappear span:nth-child(8){
     animation-name: disappearleft;
     animation-delay: 2s;
 }
-.disappear_1 span:nth-child(9){
+.disappear span:nth-child(9){
     animation-name: disappearleft;
     animation-delay: 2.3s;
 
 }
-.disappear_1 span:nth-child(10){
+.disappear span:nth-child(10){
     animation-name: disappearleft;
     animation-delay: 2.5s;
 
 }
-.disappear_1 span:nth-child(11){
+.disappear span:nth-child(11){
     animation-name: disappearleft;
     animation-delay: 2.8s;
 
 }
-.disappear_1 span:nth-child(12){
+.disappear span:nth-child(12){
     animation-name: disappearleft;
     animation-delay: 3s;
 
 }
-.disappear_1 span:nth-child(13){
+.disappear span:nth-child(13){
     animation-name: disappearight;
     animation-delay: 3.3s;
 
 }
-.disappear_1 span:nth-child(14){
+.disappear span:nth-child(14){
     animation-name: disappearleft;
     animation-delay: 3.5s;
 
 }
-.disappear_1 span:nth-child(15){
+.disappear span:nth-child(15){
     animation-name: disappearight;
     animation-delay: 3.8s;
 
 }
-.disappear_1 span:nth-child(16){
+.disappear span:nth-child(16){
     animation-name: disappearight;
     animation-delay: 4s;
+
+}
+
+/*Third disapear*/
+.disappear_2:hover span {
+    animation-duration: 12s;
+}
+.disappear span:nth-child(17){
+    animation-name: disappearight;
+    animation-delay: 4.3s;
+
+}
+.disappear span:nth-child(18){
+    animation-name: disappearight;
+    animation-delay: 4.5s;
+
+}
+.disappear span:nth-child(19){
+    animation-name: disappearight;
+    animation-delay: 4.8s;
+
+}
+.disappear span:nth-child(20){
+    animation-name: disappearight;
+    animation-delay: 5s;
 
 }
 
