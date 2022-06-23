@@ -11,7 +11,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-.logo div{
+.logo_1 div{
     padding-left: 50px;
     margin-top: -40px;
 }
@@ -21,6 +21,9 @@
     font-weight: bold;
     letter-spacing: -1px;
 
+}
+.space {
+    margin: 0 5px 0 5px;
 }
 
 .nav__links {
@@ -59,11 +62,12 @@
 .disappear:hover span {
     color:transparent;
     text-shadow: 0px 0px 0px white;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 .disappear span:nth-child(1){
     animation-name: disappearleft;
+    animation-delay: .3s;
 }
 .disappear span:nth-child(2){
     animation-name: disappearleft;
@@ -84,6 +88,60 @@
 .disappear span:nth-child(6){
     animation-name: disappearight;
     animation-delay: 1.5s;
+}
+
+.disappear_1:hover span {
+    animation-duration: 9s;
+}
+
+/*Second disapear*/
+.disappear_1 span:nth-child(7){
+    animation-name: disappearleft;
+    animation-delay: 1.8s;
+}
+.disappear_1 span:nth-child(8){
+    animation-name: disappearleft;
+    animation-delay: 2s;
+}
+.disappear_1 span:nth-child(9){
+    animation-name: disappearleft;
+    animation-delay: 2.3s;
+
+}
+.disappear_1 span:nth-child(10){
+    animation-name: disappearleft;
+    animation-delay: 2.5s;
+
+}
+.disappear_1 span:nth-child(11){
+    animation-name: disappearleft;
+    animation-delay: 2.8s;
+
+}
+.disappear_1 span:nth-child(12){
+    animation-name: disappearleft;
+    animation-delay: 3s;
+
+}
+.disappear_1 span:nth-child(13){
+    animation-name: disappearight;
+    animation-delay: 3.3s;
+
+}
+.disappear_1 span:nth-child(14){
+    animation-name: disappearleft;
+    animation-delay: 3.5s;
+
+}
+.disappear_1 span:nth-child(15){
+    animation-name: disappearight;
+    animation-delay: 3.8s;
+
+}
+.disappear_1 span:nth-child(16){
+    animation-name: disappearight;
+    animation-delay: 4s;
+
 }
 
 @keyframes disappearleft{
