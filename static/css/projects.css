@@ -14,7 +14,7 @@
     padding: 0;
     width: 50vw;
     height: 100vh;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -326,8 +326,16 @@
 }
 
 .project_title {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif !important;
+    text-align: center;
+    margin-top: 3%!important;
+}
+.project_title_third {
+/*    Stylish that*/
+}
+.project_title_second {
     position: absolute;
     z-index: 1000;
-    
+    /*text-align: center;*/
+    margin-bottom: 44.5% ;
 }
