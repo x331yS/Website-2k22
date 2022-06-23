@@ -228,7 +228,7 @@
 
 .info .text {
     position: relative;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: calc(var(--card-width) * var(--text-size-offset, 0.2));
     white-space: nowrap;
     color: #fff;
@@ -323,4 +323,11 @@
     height: 100vh;
     margin: 0 0 0 50%;
     background-color: #6e6e70;
+}
+
+.project_title {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    z-index: 1000;
+    
 }
