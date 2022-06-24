@@ -403,21 +403,21 @@
         color: white;
     }
 }
-.popout:hover span {
+.popout:hover span.title_coding  {
     position: relative;
     display: inline-block;
     -webkit-animation: ani-popout 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
     animation: ani-popout 1s infinite alternate cubic-bezier(0.86, 0, 0.07, 1);
 }
-.popout span:nth-last-child(1n) {
+.popout span.title_coding:nth-last-child(1n) {
     -webkit-animation-delay: -0.1666666667s;
     animation-delay: -0.1666666667s;
 }
-.popout span:nth-last-child(2n) {
+.popout span.title_coding:nth-last-child(2n) {
     -webkit-animation-delay: -0.3333333333s;
     animation-delay: -0.3333333333s;
 }
-.popout span:nth-last-child(3n) {
+.popout span.title_coding:nth-last-child(3n) {
     -webkit-animation-delay: -0.5s;
     animation-delay: -0.5s;
 }
