@@ -173,6 +173,9 @@ h1 {
 #projects {
     visibility: hidden;
 }
+#pointer {
+    visibility: hidden;
+}
 .sticky {
     box-sizing: initial;
     display: flex;
