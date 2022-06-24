@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
+
+/** {*/
+/*    outline: 3px solid limegreen;*/
+/*}*/
+
 html {
     background-color: #3c393d;
     font-family: "Open Sans", sans-serif;
@@ -170,8 +175,9 @@ h1 {
 }
 .sticky {
     box-sizing: initial;
-   display: flex;
+    display: flex;
     position: sticky;
+    padding-right: 0!important;
     top: 40px;
     width: 100%;
 }
