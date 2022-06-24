@@ -61,6 +61,8 @@ body {
 }
 
 #afterloader {
+    height: 100vh;
+    width: 100vw;
     position: absolute;
     opacity: 0;
     animation-delay: 4.5s;
