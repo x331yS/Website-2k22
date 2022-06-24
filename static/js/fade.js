@@ -1,6 +1,7 @@
 setTimeout(function () {
     fadeOutEffect()
 }, 4000);
+
 function fadeOutEffect() {
     var fadeTarget = document.getElementById("preloader");
     var fadeEffect = setInterval(function () {
