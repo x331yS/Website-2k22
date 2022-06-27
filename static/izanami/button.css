@@ -8,6 +8,9 @@
     height: 100vh;
     background-color: #0d0d0d;
 }
+.loader__wrapper {
+    opacity: 1;
+}
 .button-page .loader__wrapper {
     position: relative;
     width: 100%;

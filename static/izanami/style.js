@@ -59,9 +59,18 @@ function loaderDelete() {
 }
 
 function videoRestart() {
-    video.pause()
-    video.currentTime = 0;
-    video.load();
-    video.muted = false
-    video.play()
+    let em = document.getElementById("button_more");
+    let  button = window.getComputedStyle(em).getPropertyValue("opacity");
+    if (button > 0) {
+        em.style.opacity = "0";
+        video.pause()
+        video.currentTime = 0;
+        video.load();
+        video.muted = false
+        video.play()
+    } else {
+        em.style.opacity = "1";
+        video.muted = true
+    }
+
 }
