@@ -90,6 +90,14 @@ body {
     position: absolute;
     width: 32rem;
 }
+
+.title {
+    color: #fff;
+    position: absolute;
+    justify-content: center;
+    margin: 4rem 0 0 50vw;
+    text-align: center;
+}
 .first_data {
     font-family: "Monument Extended" , sans-serif;
 

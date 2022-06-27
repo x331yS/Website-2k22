@@ -77,7 +77,6 @@
 }
 .wrapper .text > span::after {
     color: var(--color-invert);
-    border: none;
     -webkit-clip-path: var(--clip-path);
     clip-path: var(--clip-path);
     transition: -webkit-clip-path var(--duration) var(--timing-function);
