@@ -1,8 +1,8 @@
 .wrapper {
     left: 30%;
     bottom: 5%;
-    --color: #1F242D;
-    --color-invert: #ffffff;
+    --color: #fff;
+    --color-invert: #f60d50;
     --clip-path: circle(15px at left);
     --clip-path-hover: circle(70px at left);
     --clip-path-clicked: circle(100vw at left);
@@ -77,6 +77,7 @@
 }
 .wrapper .text > span::after {
     color: var(--color-invert);
+    border: none;
     -webkit-clip-path: var(--clip-path);
     clip-path: var(--clip-path);
     transition: -webkit-clip-path var(--duration) var(--timing-function);
