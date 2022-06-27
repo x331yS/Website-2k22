@@ -6,7 +6,7 @@
     --clip-path-clicked: circle(100vw at left);
     --duration: .4s;
     --timing-function: ease;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
