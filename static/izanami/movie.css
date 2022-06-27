@@ -1,4 +1,5 @@
 .wrapper {
+    left: 30%;
     --color: #1F242D;
     --color-invert: #ffffff;
     --clip-path: circle(15px at left);
