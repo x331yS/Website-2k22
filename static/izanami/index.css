@@ -81,3 +81,10 @@ body {
 .description {
     position: absolute;
 }
+
+.about {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    background: #3c393d;
+}

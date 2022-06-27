@@ -4,9 +4,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-color: #3c393d;
+    background-color: #0d0d0d;
 }
 .button-page .loader__wrapper {
     position: relative;
@@ -62,7 +62,7 @@
     height: 100vh;
     width: 100%;
     display: block;
-    fill: #3c393d;
+    fill: #0d0d0d;
 }
 @keyframes SpinAround {
     0% {
