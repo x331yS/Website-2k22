@@ -59,7 +59,9 @@ function loaderDelete() {
 }
 
 function videoRestart() {
+    video.pause()
     video.currentTime = 0;
     video.load();
+    video.muted = false
     video.play()
 }

@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100);
+@font-face {
+    font-family: "Monument Extended";
+    src: url("../css/MonumentExtended-Ultrabold.otf") format("opentype");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -79,7 +84,15 @@ body {
 }
 
 .description {
+    text-align: justify;
+    margin: 18rem 0 0 9rem;
+    color: #fff;
     position: absolute;
+    width: 32rem;
+}
+.first_data {
+    font-family: "Monument Extended" , sans-serif;
+
 }
 
 .about {

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Monument Extended";
-    src: url("./MonumentExtended-Ultrabold.otf") format("opentype");
+    src: url("../css/MonumentExtended-Ultrabold.otf") format("opentype");
 }
 
 html, body {
