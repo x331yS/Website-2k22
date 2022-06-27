@@ -2,6 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    /*outline: 3px solid green;*/
 }
 
 h1, p, h2, h3, h4, ul, li, div {
@@ -20,7 +21,7 @@ body {
 }
 
 .loading-page {
-    /*background: #0d0d0d;*/
+    background: #0d0d0d;
     width: 100vw;
     height: 100vh;
     display: flex;
