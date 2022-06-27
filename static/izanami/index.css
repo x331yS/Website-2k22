@@ -85,7 +85,7 @@ body {
 
 .description {
     text-align: justify;
-    margin: 18rem 0 0 9rem;
+    margin: 20rem 0 0 9rem;
     color: #fff;
     position: absolute;
     width: 32rem;
@@ -93,14 +93,11 @@ body {
 
 .title {
     color: #fff;
-    position: absolute;
-    justify-content: center;
     margin: 4rem 0 0 50vw;
-    text-align: center;
+    position: absolute;
 }
 .first_data {
     font-family: "Monument Extended" , sans-serif;
-
 }
 
 .about {

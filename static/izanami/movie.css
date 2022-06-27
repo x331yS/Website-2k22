@@ -3,8 +3,8 @@
     bottom: 5%;
     --color: #fff;
     --color-invert: #f60d50;
-    --clip-path: circle(15px at left);
-    --clip-path-hover: circle(70px at left);
+    --clip-path: circle(70px at left);
+    --clip-path-hover: circle(150px at left);
     --clip-path-clicked: circle(100vw at left);
     --duration: .4s;
     --timing-function: ease;
