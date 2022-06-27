@@ -96,6 +96,25 @@ body {
     margin: 4rem 0 0 50vw;
     position: absolute;
 }
+
+.title:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 250px;
+    height: 1px;
+    margin: 0.5rem 0 0 -17rem;
+    background-color: #f60d54;
+}
+.title:after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 800px;
+    height: 1px;
+    margin: -0.5rem 0 0 22rem;
+    background-color: #f60d54;
+}
 .first_data {
     font-family: "Monument Extended" , sans-serif;
 }
@@ -104,5 +123,5 @@ body {
     color: #fff;
     height: 100%;
     width: 100%;
-    background: #3c393d;
+    background: black;
 }
