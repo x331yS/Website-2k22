@@ -138,29 +138,3 @@
     -webkit-clip-path: var(--clip-path-clicked);
     clip-path: var(--clip-path-clicked);
 }
-
-body {
-    height: 100vh;
-    font: 400 16px "Poppins", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-body .socials {
-    position: fixed;
-    display: block;
-    left: 20px;
-    bottom: 20px;
-    z-index: 9999;
-}
-body .socials > a {
-    display: block;
-    width: 30px;
-    opacity: 0.2;
-    transform: scale(var(--scale, 0.8));
-    transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
-}
-body .socials > a:hover {
-    --scale: 1;
-}

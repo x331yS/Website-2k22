@@ -1,3 +1,5 @@
+let video = document.getElementById('video');
+
 $(document).ready(function() {
 
     var counter = 0;
@@ -18,7 +20,8 @@ $(document).ready(function() {
             fadeOutEffect()
             setTimeout(function () {
                 loaderDelete()
-            }, 5000);
+                video.play()
+            }, 2000);
         }
     }, 50);
 });
@@ -32,17 +35,13 @@ function fadeOutEffect() {
         if (fadeTarget.style.opacity > 0) {
             fadeTarget.style.opacity -= 0.1;
         } else {
-            fadeInEffect()
-            clearInterval(fadeEffect);
+                fadeInEffect()
+                clearInterval(fadeEffect);
         }
     }, 80);
 }
-// setTimeout(function () {
-//     loaderDelete()
-//     fadeInEffect()
-// }, 5000);
-//
 function fadeInEffect() {
+
     var fadeTarget = document.getElementById("afterloader");
     var fadeEffect = setInterval(function () {
         if (fadeTarget.style.opacity < 1) {
@@ -57,4 +56,10 @@ function loaderDelete() {
     const loader = document.getElementById("preloader");
     loader.style.display = "none"
 
+}
+
+function videoRestart() {
+    video.currentTime = 0;
+    video.load();
+    video.play()
 }

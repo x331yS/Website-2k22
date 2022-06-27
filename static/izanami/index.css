@@ -65,7 +65,7 @@ body {
     width: 100vw;
     position: absolute;
     opacity: 0;
-    animation-delay: 4.5s;
+    animation-delay: 6s;
     animation-name: fadein;
     animation-duration: 4s;
     /*-webkit-animation: fadein 12s; !* Safari, Chrome and Opera > 12.1 *!*/
