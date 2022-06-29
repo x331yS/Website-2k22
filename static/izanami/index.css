@@ -96,6 +96,20 @@ body {
     margin: 4rem 0 0 50vw;
     position: absolute;
 }
+.navbar {
+    color: #fff;
+    position: absolute;
+    margin: 6rem 0 0 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 11px;
+}
+
+.nav__info {
+    margin: 5px 20px;
+}
 
 .title:before {
     position: absolute;
