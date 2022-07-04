@@ -78,6 +78,7 @@
     transform-style: preserve-3d;
     transform: translateZ(2px);
     transition: transform 0.5s ease-in-out;
+    margin-left: 10px;
 }
 .card .photo {
     position: absolute;
@@ -255,7 +256,7 @@
 }
 .details .card .chart {
     transform: translateZ(40px) translatey(50px);
-    margin-left: 10px;
+
 }
 .details .card .bar {
     transform: translateX(-7.5px) rotateX(-90deg) rotateY(-25deg);
