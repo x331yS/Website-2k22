@@ -133,6 +133,12 @@ body {
     font-family: "Monument Extended" , sans-serif;
 }
 
+.izanami_data {
+    background: #0d0d0d;
+    margin-top: 10rem;
+    width: 50%;
+}
+
 .about {
     color: #fff;
     height: 100%;
