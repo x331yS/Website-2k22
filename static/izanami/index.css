@@ -165,4 +165,12 @@ body {
 }
 .izanami_link {
     display: flex;
+    text-decoration: none;
+}
+.izanami_text_link {
+    padding: 20px 15px 15px 15px;
+    color: #f60d54;
+}
+.pinky {
+    color: #f60d54;
 }
