@@ -90,6 +90,13 @@ body {
     position: absolute;
     width: 32rem;
 }
+.description_second {
+    text-align: justify;
+    margin: 20rem 0 0 9rem;
+    color: #fff;
+    position: absolute;
+    width: 25rem;
+}
 
 .title {
     color: #fff;
@@ -136,8 +143,7 @@ body {
 .izanami_data {
     position: absolute;
     background: black;
-    margin-top: 10rem;
-    width: 50%;
+    margin-top: 15rem;
 }
 
 .izanami_second_data {
@@ -157,7 +163,6 @@ body {
     width: 100%;
     background: black;
 }
-
 .izanami_link {
-
+    display: flex;
 }

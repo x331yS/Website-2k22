@@ -357,11 +357,3 @@
 .background:after {
     background: linear-gradient(240deg, rgbA(13, 13, 13, 0), rgba(0, 0, 0, 0));
 }
-
-.info {
-    font-family: "Oxygen", sans-serif;
-    color: white;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-}
