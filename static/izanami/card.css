@@ -86,7 +86,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("https://source.unsplash.com/kpAXYoXSeuY/600x600") no-repeat center center;
+    background: url("/static/assets/img/izanami.png") no-repeat center center;
     background-size: cover;
     border-radius: 10px;
     transition: transform 0.5s ease-in-out;
@@ -114,9 +114,11 @@
     transform-style: preserve-3d;
     margin: 6px;
     position: relative;
-    background: linear-gradient(to bottom, #feffff 0%, #ddf1f9 0%, #a0d8ef 100%);
+    background: linear-gradient(to bottom, #feffff 0%, #9b9b9b 0%, #3f3e3e 100%);
+
 }
 @media (min-height: 600px) {
+
     .card .bar {
         margin: 10px;
         width: 25px;
@@ -134,7 +136,7 @@
     background-color: grey;
     transform: rotateY(90deg);
     transform-origin: 0% 50%;
-    background: linear-gradient(to bottom, #feffff 0%, #85d7f7 0%, #4c8596 100%);
+    background: linear-gradient(to bottom, #feffff 0%, #9b9b9b 0%, #c7c3c3 100%);
 }
 @media (min-height: 600px) {
     .card .bar:after {
@@ -170,26 +172,32 @@
         line-height: 18px;
     }
 }
+.card .bar.bar0:before {
+    content: "";
+}
 .card .bar.bar1:before {
-    content: "M";
+    content: "I";
 }
 .card .bar.bar2:before {
-    content: "T";
+    content: "Z";
 }
 .card .bar.bar3:before {
-    content: "W";
+    content: "A";
 }
 .card .bar.bar4:before {
-    content: "T";
+    content: "N";
 }
 .card .bar.bar5:before {
-    content: "F";
+    content: "A";
 }
 .card .bar.bar6:before {
-    content: "S";
+    content: "M";
 }
 .card .bar.bar7:before {
-    content: "S";
+    content: "I";
+}
+.card .bar.bar8:before {
+    content: "";
 }
 .card .bar span {
     font-family: "Oxygen", sans-serif;
@@ -208,8 +216,34 @@
     transition: opacity 0.5s ease-in-out;
 }
 @media (min-height: 600px) {
+    .card .bar0 span {
+        top: 55px;
+    }
+    .card .bar1 span {
+        top: 55px;
+    }
+    .card .bar2 span {
+        top: 15px;
+    }
+    .card .bar3 span {
+        top: 30px;
+    }
+    .card .bar4 span {
+        top: 15px;
+    }
+    .card .bar5 span {
+        top: 15px;
+    }
+    .card .bar6 span {
+        top: 45px;
+    }
+    .card .bar7 span {
+        top: 30px;
+    }
+    .card .bar8 span {
+        top: 15px;
+    }
     .card .bar span {
-        top: 25px;
         left: 25px;
         font-size: 13px;
     }
@@ -230,10 +264,15 @@
         transform: translateX(-12.5px) rotateX(-90deg) rotateY(-25deg);
     }
 }
-.details .card .bar.bar1 {
+.details .card .bar.bar0 {
     height: 150px;
     transition-delay: 0.3s;
     margin-top: -150px;
+}
+.details .card .bar.bar1 {
+    height: 200px;
+    transition-delay: 0.3s;
+    margin-top: -200px;
 }
 .details .card .bar.bar2 {
     height: 75px;
@@ -256,14 +295,19 @@
     margin-top: -52.5px;
 }
 .details .card .bar.bar6 {
-    height: 52.5px;
+    height: 152.5px;
     transition-delay: 0.2s;
-    margin-top: -52.5px;
+    margin-top: -152.5px;
 }
 .details .card .bar.bar7 {
     height: 75px;
     transition-delay: 0.3s;
     margin-top: -75px;
+}
+.details .card .bar.bar8 {
+    height: 40px;
+    transition-delay: 0.3s;
+    margin-top: -40px;
 }
 .details .card .bar span {
     opacity: 1;
@@ -276,7 +320,7 @@
     transform: translateZ(20px);
 }
 .details .card .photo:after {
-    background-color: rgba(0, 50, 100, 0.8);
+    background-color: rgba(35, 34, 34, 0.8);
 }
 .details .card h2 {
     opacity: 0;
@@ -297,7 +341,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background: #0d0d0d;
+    background: black;
 }
 .background:before, .background:after {
     position: absolute;
@@ -306,10 +350,10 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #0d0d0d;
+    background: black;
 }
 .background:after {
-    background: linear-gradient(240deg, rgbA(13, 13, 13, 0), rgba(0, 0, 200, 0));
+    background: linear-gradient(240deg, rgbA(13, 13, 13, 0), rgba(0, 0, 0, 0));
 }
 
 .info {
