@@ -330,16 +330,10 @@ body {
 }
 
 #trailer {
+    background: #000;
     width: 100%;
     height: 100%;
     position: absolute;
-}
-.sticky {
-    box-sizing: initial;
-    display: flex;
-    position: sticky;
-    padding-right: 0!important;
-    width: 100%;
 }
 
 .second_video {
