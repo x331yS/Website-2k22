@@ -134,9 +134,20 @@ body {
 }
 
 .izanami_data {
+    position: absolute;
     background: #0d0d0d;
     margin-top: 10rem;
     width: 50%;
+}
+
+.izanami_second_data {
+    margin-top: 10rem;
+    position: absolute;
+    margin-left: 50%;
+    background: #0d0d0d;
+    width: 50%;
+    height: 100%;
+
 }
 
 .about {
@@ -144,4 +155,8 @@ body {
     height: 100%;
     width: 100%;
     background: black;
+}
+
+.izanami_link {
+
 }
