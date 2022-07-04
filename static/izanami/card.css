@@ -255,6 +255,7 @@
 }
 .details .card .chart {
     transform: translateZ(40px) translatey(50px);
+    margin-left: 10px;
 }
 .details .card .bar {
     transform: translateX(-7.5px) rotateX(-90deg) rotateY(-25deg);
