@@ -1,5 +1,5 @@
 "use strict";
-let body = document.body;
+let body = document.getElementById("card")
 let tilted = false;
 let toggleTilt = function () {
     tilted = !tilted;

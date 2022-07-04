@@ -76,9 +76,6 @@ function videoRestart() {
 }
 function videoRestartNav() {
     let element = document.querySelector('.wrapper .video');
-    let ht = getComputedStyle(element);
-    console.log(ht)
-    console.log("okok")
     element.style.clipPath = "--clip-path-clicked"
     videoRestart()
 }

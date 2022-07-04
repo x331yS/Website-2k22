@@ -27,6 +27,8 @@
     flex-direction: column;
     transform-style: preserve-3d;
     box-shadow: 5px 5px 24px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1;
 }
 @media (min-height: 600px) {
     .card {
@@ -108,7 +110,6 @@
     will-change: height;
     width: 15px;
     height: 1px;
-    background-color: white;
     transform: translateX(-7.5px) rotateX(-90deg) rotateY(-45deg);
     transform-origin: 100% 100%;
     transition: height 0.5s ease-in-out, margin 0.5s ease-in-out, transform 0.5s ease-in-out;

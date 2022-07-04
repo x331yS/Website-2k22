@@ -7,6 +7,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
     /*outline: 3px solid green;*/
 }
 
@@ -99,6 +100,7 @@ body {
 }
 
 .title {
+    cursor: pointer;
     color: #fff;
     margin: 4rem 0 0 50vw;
     position: absolute;
@@ -115,6 +117,7 @@ body {
 }
 
 .nav__info {
+    cursor: pointer;
     margin: 5px 20px;
 }
 
@@ -148,12 +151,12 @@ body {
 
 .izanami_second_data {
     z-index: 0;
-    margin-top: 10rem;
+    margin-top: 16rem;
     position: absolute;
     margin-left: 50%;
     background: black;
     width: 50%;
-    height: 100%;
+    height: 70%;
 
 }
 
@@ -324,4 +327,21 @@ body {
     100% {
         clip: rect(83px, 350px, 40px, 30px);
     }
+}
+
+#trailer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.sticky {
+    box-sizing: initial;
+    display: flex;
+    position: sticky;
+    padding-right: 0!important;
+    width: 100%;
+}
+
+.second_video {
+    margin-top: 10%;
 }
