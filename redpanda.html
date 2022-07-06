@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Florian Lejosne - RedPanda</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
-    <link rel="stylesheet" href="static/redpanda/css/index.css">
     <link rel="stylesheet" type="text/css" href="static/redpanda/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="static/redpanda/css/font-awesome.css">
     <link rel="stylesheet" href="static/redpanda/css/page.css">
@@ -13,18 +12,14 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="preloader">
-    <div class="preloader__container">
-        <h1 class="preloader__container__percent"></h1>
-        <div class="preloader__container__preload">
-            <div class="preloader__container__preload__dot">         </div>
-            <div class="preloader__container__preload__dot">         </div>
-            <div class="preloader__container__preload__dot">         </div>
-            <div class="preloader__container__preload__dot">         </div>
-        </div>
+
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 </div>
-<main>
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
@@ -73,10 +68,10 @@
                 <div class="row">
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                          data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1>Simple App that we <em>CREATE</em></h1>
-                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">SwebyStudio</a>.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At enim eveniet labore neque ut voluptatibus!</p>
-                        <a href="#about" class="main-button-slider">KNOW US BETTER</a>
+                        <h1>RedPanda by <em>Byg4Lab</em></h1>
+                        <p style="margin-bottom: 10px">RedPanda create by <a href="https://byg4lab.com/">Byg4Lab</a> is a company-internal ticketing <a href="https://intranet-preprod/interventions">software</a>.</p>
+                        <p> I had the opportunity to have an internship in the company Byg4Lab and I therefore helped to develop the 4.2.4.0 version of this software for 2 months</p>
+                        <a href="#about" class="main-button-slider">WHAT I DID</a>
                     </div>
                 </div>
             </div>
@@ -95,9 +90,9 @@
                         <div class="features-icon">
                             <h2>01</h2>
                             <img src="static/redpanda/img/features-icon-1.png" alt="">
-                            <h4>Trend Analysis</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
+                            <h4>Testing / Debugging</h4>
+                            <p>Test the application to find bugs and fixing them</p>
+                            <a href="#promotion" class="main-button">
                                 Read More
                             </a>
                         </div>
@@ -109,9 +104,9 @@
                         <div class="features-icon">
                             <h2>02</h2>
                             <img src="static/redpanda/img/features-icon-2.png" alt="">
-                            <h4>Site Optimization</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
-                            <a href="#testimonials" class="main-button">
+                            <h4>Preprod Instance</h4>
+                            <p>Setting up a preprod to see the progress of RedPanda</p>
+                            <a href="#promotion" class="main-button">
                                 Discover More
                             </a>
                         </div>
@@ -123,8 +118,8 @@
                         <div class="features-icon">
                             <h2>03</h2>
                             <img src="static/redpanda/img/features-icon-3.png" alt="">
-                            <h4>Email Design</h4>
-                            <p>Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam, nec consectetur diam.</p>
+                            <h4>Release and Demo</h4>
+                            <p>Release of version 4.2.4.0 of Redpanda and demo for future users</p>
                             <a href="#testimonials" class="main-button">
                                 More Detail
                             </a>
@@ -151,28 +146,22 @@
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
                             <img src="static/redpanda/img/about-icon-01.png" alt="">
                             <div class="text">
-                                <h4>Vestibulum pulvinar rhoncus</h4>
-                                <p>Please do not redistribute this template ZIP file for a download purpose. You may <a
-                                        rel="nofollow" href="https://swebystudio.com/contact" target="_parent">contact</a> us for
-                                    additional licensing of our template or to get a PSD file.</p>
+                                <h4>Testing and Debugging</h4>
+                                <p>With test sheets I check each element of the software and if certain tests do not work I create a bug on TFS so that we can take care of it.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.5s">
                             <img src="static/redpanda/img/about-icon-02.png" alt="">
                             <div class="text">
-                                <h4>Sed blandit quam in velit</h4>
-                                <p>You can <a rel="nofollow"
-                                              href="https://swebystudio.com/contact">download Lava
-                                    Template</a> from our website. Duis viverra, ipsum et scelerisque placerat, orci
-                                    magna consequat ligula.</p>
+                                <h4>Preprod Instance</h4>
+                                <p>When we had fixed a large number of bugs we put them in preproduction to check that everything worked correctly.</p>
                             </div>
                         </li>
                         <li data-scroll-reveal="enter right move 30px over 0.6s after 0.6s">
                             <img src="static/redpanda/img/about-icon-03.png" alt="">
                             <div class="text">
-                                <h4>Aenean faucibus venenatis</h4>
-                                <p>Phasellus in imperdiet felis, eget vestibulum nulla. Aliquam nec dui nec augue
-                                    maximus porta. Curabitur tristique lacus.</p>
+                                <h4>Release and Demo</h4>
+                                <p>At the end of the project, we presented the software and released it.</p>
                             </div>
                         </li>
                     </ul>
@@ -190,9 +179,8 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="center-heading">
-                        <h2>What They Think <em>About Us</em></h2>
-                        <p>Suspendisse vitae laoreet mauris. Fusce a nisi dapibus, euismod purus non, convallis odio.
-                            Donec vitae magna ornare, pellentesque ex vitae, aliquet urna.</p>
+                        <h2>Project <em>Team Members</em></h2>
+                        <p>List of the team that took care of RedPanda</p>
                     </div>
                 </div>
                 <div class="col-lg-10 col-md-12 col-sm-12 mobile-bottom-fix-big"
@@ -200,7 +188,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="item service-item">
                             <div class="author">
-                                <i><img src="static/redpanda/img/testimonial-author-1.png" alt="Author One"></i>
+                                <i><img src="static/redpanda/img/matthieubarbe.jpg" alt="Author One"></i>
                             </div>
                             <div class="testimonial-content">
                                 <ul class="stars">
@@ -210,10 +198,9 @@
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>
                                 </ul>
-                                <h4>Jonathan Smart</h4>
-                                <p>“Nullam hendrerit, elit a semper pharetra, ipsum nibh tristique tortor, in tempus
-                                    urna elit in mauris.”</p>
-                                <span>Besta CTO</span>
+                                <h4>Matthieu Barbe</h4>
+                                <p>“Fullstack developer in apprenticeship at Byg Informatique”</p>
+                                <span>Co-op Student</span>
                             </div>
                         </div>
                         <div class="item service-item">
@@ -281,40 +268,9 @@
             <div class="footer-content">
                 <div class="row">
                     <!-- ***** Contact Form Start ***** -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="contact-form">
-                            <form id="contact" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="name" type="text" id="name" placeholder="Full Name" required=""
-                                                   style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <fieldset>
-                                            <input name="email" type="text" id="email" placeholder="E-Mail Address"
-                                                   required="" style="background-color: rgba(250,250,250,0.3);">
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <textarea name="message" rows="6" id="message" placeholder="Your Message"
-                                                      required="" style="background-color: rgba(250,250,250,0.3);"></textarea>
-                                        </fieldset>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <fieldset>
-                                            <button type="submit" id="form-submit" class="main-button">Send Message
-                                                Now</button>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+
                     <!-- ***** Contact Form End ***** -->
-                    <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                    <div class="right-content">
                         <h2>More About <em>Lava</em></h2>
                         <p>Phasellus dapibus urna vel lacus accumsan, iaculis eleifend leo auctor. Duis at finibus odio.
                             Vivamus ut pharetra arcu, in porta metus. Suspendisse blandit pulvinar ligula ut elementum.
@@ -334,16 +290,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="sub-footer">
-                        <p>Copyright &copy; 2021 SwebyStudio
+                        <p>Copyright &copy; 2022 Lejosne Florian
 
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-</main>
 <script src="static/redpanda/js/jquery-2.1.0.min.js"></script>
-<script src="static/redpanda/js/popper.js"></script>
 <script src="static/redpanda/js/owl-carousel.js"></script>
 <script src="static/redpanda/js/scrollreveal.min.js"></script>
 <script src="static/redpanda/js/waypoints.min.js"></script>
@@ -353,7 +307,8 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'>
 
-</script><script  src="static/redpanda/js/preloader.js"></script>
+</script>
+<script src="static/redpanda/js/preloader.js"></script>
 
 </body>
 </html>
