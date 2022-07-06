@@ -71,7 +71,7 @@ Home Slider
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-color: hsl(285, 3%, 23%);
     /*background-blend-mode: overlay;*/
 }
@@ -103,7 +103,7 @@ Home Slider
     font-weight: 500;
     color: #fff;
     align-self: flex-start;
-    margin: 0 0 auto 0;
+    margin: 10px 0 auto 0;
     font-size: 4.5rem;
     line-height: 1;
     transition: all .8s cubic-bezier(0.215, 0.61, 0.355, 1) 1.1s;
@@ -123,6 +123,16 @@ Home Slider
 
 #project-last h1 span:not(.emphasis) {
     font-size: 3.5rem;
+}
+.project-middle-last::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100vh;
+    margin: 0 0 0 50%;
+    background-color: #6e6e70;
+    z-index: 10;
 }
 
 #project-last h1 + p {
@@ -263,7 +273,10 @@ Home Slider
 }
 
 .swiper-slide {
+    /*outline: 22px solid #3c393d;*/
     cursor: none;
+    margin: 0;
+    padding: 0;
     -webkit-flex-shrink: 0;
     -ms-flex: 0 0 auto;
     flex-shrink: 0;
