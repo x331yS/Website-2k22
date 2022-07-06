@@ -207,8 +207,8 @@ a {
     letter-spacing: 1px;
     font-weight: bold;
     background: #3c393d;
-    -webkit-mask: url("../assets/img/nature-sprite-reverse.png");
-    mask: url("../assets/img/nature-sprite-reverse.png");
+    -webkit-mask: url("../../home/assets/img/nature-sprite-reverse.png");
+    mask: url("../../home/assets/img/nature-sprite-reverse.png");
     -webkit-mask-size: 2300% 100%;
     mask-size: 2300% 100%;
     border: none;
