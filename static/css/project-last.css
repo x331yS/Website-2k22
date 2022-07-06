@@ -232,7 +232,7 @@ Home Slider
     }
 
     #project-last p.paragraph {
-        max-width: 94%;
+        max-width: 100%;
     }
 }
 
@@ -245,6 +245,9 @@ Home Slider
     z-index: 1;
 }
 
+.paragraph span {
+    margin-left: 25%;
+}
 .swiper-container-no-flexbox .swiper-slide {
     float: left;
 }
