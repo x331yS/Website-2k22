@@ -1,4 +1,36 @@
-iframe {
+:root {
+    /* Circle Width */
+    --circle-diameter: 300px;
+}
+
+.google-map {
+    position: relative;
+    display: flex;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+    width: var(--circle-diameter);
+    height: var(--circle-diameter);
+    overflow: hidden;
+    border-radius: var(--circle-diameter);
+    transition: 5000ms;
+    cursor: grab;
+}
+
+.google-map .map-frame {
+    width: 100vw;
+    height: 50vh;
+}
+
+.google-map iframe {
     position: absolute;
-    left: 50%;
+    width: 100vw;
+    height: 50vh;
+    pointer-events: visibleStroke;
+}
+
+.google-map:hover {
+    width: 100vw;
+    height: 50vh;
+    border-radius: 0;
 }

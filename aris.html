@@ -2,19 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Florian Lejosne - Byg4Lab</title> <link rel="stylesheet" href="static/aris/index.css">
+    <title>Florian Lejosne - Byg4Lab</title>
+    <link rel="stylesheet" href="static/aris/index.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="static/aris/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 <body>
-<h1 class="title">BYG4LAB</h1>
+<h1 class="title">ARIS</h1>
+<div id="scene" class="scene">
+    <div style="margin-left: 30%"    data-depth="1.50"><img src="static/aris/assets/img/astronaut.png"></div>
+    <div style="margin-left: 70%" data-depth="0.60"><img src="static/aris/assets/img/Neptune.png"></div>
+    <div style="margin: 10% 0 30% 0" data-depth="0.40"><img src="static/aris/assets/img/Mars.png"></div>
+    <div style="margin: 10% 0 0 0" data-depth="2.80"><img src="static/aris/assets/img/rocket.png"></div>
+</div>
+<div class="about">
+    <h1 style="margin: 50% 50% 0 0">hello</h1>
+</div>
+
 
 <div id="preloader">
     <div class="loading">LOADING</div>
 </div>
+<script>
 
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+
+</script>
 <script>
 
     paceOptions = {
@@ -23,11 +39,11 @@
         eventLag: false
     };
 
-    Pace.on('done', function() {
-        $('.loading').delay(1500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
+    Pace.on('done', function () {
+        $('.loading').delay(1500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19, 1, 0.22, 1]));
 
 
-        $('#preloader').delay(2500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+        $('#preloader').delay(2500).animate({top: '-100%'}, 2000, $.bez([0.19, 1, 0.22, 1]));
 
         TweenMax.from(".title", 2, {
             delay: 1.8,
