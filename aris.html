@@ -8,6 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="static/aris/index.js"></script>
 </head>
 <body>
 <h1 class="title">ARIS</h1>
@@ -18,7 +19,18 @@
     <div style="margin: 10% 0 0 0" data-depth="2.80"><img src="static/aris/assets/img/rocket.png"></div>
 </div>
 <div class="about">
-    <h1 style="margin: 50% 50% 0 0">hello</h1>
+    <h1 style="margin: 50% 50% 0 0">Aris Project</h1>
+<!--    <h2>As the world aimed to conquer Mars, Elon Musk approached the goal by-->
+<!--        2022. Mars seemed to carry ... but its work was not successful. Despite the-->
+<!--        technologies put in place and the efforts made, it was impossible for humanity to-->
+<!--        tread the soil of Mars.-->
+<!--        It was then that a group of motivated, talented and thirsty engineers-->
+<!--        discoveries, have developed the technologies allowing access to the planet-->
+<!--        March.-->
+<!--        These engineers brought together founded the company Aris. They have, together,-->
+<!--        conceptualized and implemented the technologies necessary for the journey to the-->
+<!--        planet Mars. The technologies have been advanced and achieved and have enabled different-->
+<!--        modes of travel to Mars.</h2>-->
 </div>
 
 
@@ -39,11 +51,11 @@
         eventLag: false
     };
 
-    Pace.on('done', function () {
-        $('.loading').delay(1500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19, 1, 0.22, 1]));
+    Pace.on('done', function() {
+        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
 
 
-        $('#preloader').delay(2500).animate({top: '-100%'}, 2000, $.bez([0.19, 1, 0.22, 1]));
+        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
 
         TweenMax.from(".title", 2, {
             delay: 1.8,
