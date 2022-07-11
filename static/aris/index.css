@@ -107,9 +107,14 @@ body{
     margin: 33% 0 0 0;
 }
 
+.more h1 {
+    margin: 75% 0 0 0;
+}
+
+
 .about .h2_one {
     position: absolute;
-    font-size: 28px;
+    font-size: 26px;
     margin: 60% 0 0 5%;
     letter-spacing: 1px;
     width: 40vw;
@@ -117,7 +122,7 @@ body{
 
 .about .h2_second {
     position: absolute;
-    font-size: 28px;
+    font-size: 26px;
     margin: 60% 0 0 55%;
     letter-spacing: 1px;
     width: 40vw;
@@ -125,18 +130,33 @@ body{
 
 .more_one {
     position: absolute;
-    font-size: 28px;
-    margin: 110% 0 0 5%;
+    font-size: 26px;
+    margin: 100% 0 0 5%;
+    letter-spacing: 1px;
+    width: 40vw;
+}
+.more_one_add {
+    position: absolute;
+    font-size: 22px;
+    margin: 105% 0 0 5%;
     letter-spacing: 1px;
     width: 40vw;
 }
 
 .more_second {
     position: absolute;
-    font-size: 28px;
-    margin: 110% 0 0 55%;
+    font-size: 26px;
+    margin: 100% 0 0 55%;
     letter-spacing: 1px;
     width: 40vw;
 }
 
+
+.more_second_add {
+    position: absolute;
+    font-size: 22px;
+    margin: 105% 0 0 55%;
+    letter-spacing: 1px;
+    width: 40vw;
+}
 
