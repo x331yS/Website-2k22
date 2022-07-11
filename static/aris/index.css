@@ -186,3 +186,19 @@ body{
     text-align: center;
 
 }
+
+.aris_link {
+    position: absolute;
+    margin: 86% 0 0 55%;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
+
+.text_link {
+    position: absolute;
+    margin: 86% 0 0 70%;
+    display: flex;
+    text-decoration: none;
+    color: #000;
+}
