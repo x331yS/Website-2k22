@@ -13,7 +13,7 @@
 <body>
 <h1 class="title">ARIS</h1>
 <div id="scene" class="scene">
-    <div style="margin-left: 30%"    data-depth="1.50"><img src="static/aris/assets/img/astronaut.png"></div>
+    <div style="margin-left: 30%" data-depth="1.50"><img src="static/aris/assets/img/astronaut.png"></div>
     <div style="margin-left: 70%" data-depth="0.60"><img src="static/aris/assets/img/Neptune.png"></div>
     <div style="margin: 10% 0 30% 0" data-depth="0.40"><img src="static/aris/assets/img/Mars.png"></div>
     <div style="margin: 10% 0 0 0" data-depth="2.80"><img src="static/aris/assets/img/rocket.png"></div>
@@ -41,6 +41,41 @@
         Allow everyone to be able to explore Mars, discover and set foot on the ground of a new
         planet, to feel the difference of setting foot on another star.</h2>
 </div>
+<div class="more">
+    <h1>More about</h1>
+    <h2 class="more_one">Because the Galaxy deserves to be visited</h2>
+    <h3 class="more_one">Aris is a supporter of equality and the sharing of knowledge and sensations. He
+        we must no longer limit space travel to certain categories of the population. In
+        we want everyone to be able to discover these new sensations,
+        Following in the footsteps of Elon Musk is finally within everyone's reach.</h3>
+    <h2 class="more_second">The taste of sensations </h2>
+    <h3 class="more_second"> Aris offers a service to travel to Mars in different ways.. but
+        not only. Aris also offers escape and thrill services
+        forts, attractions and catering services as well as the possibility of
+        be able to stay on site.</h3>
+    <h2>The services offered</h2>
+    <h3>
+        Starting from planet Earth, it will therefore be possible to make a trip to Mars,
+        in 2 different ways:
+        - You have a fairly large budget, and do not like to limit yourself or lose
+        time: travel and reach Mars instantly thanks to our cabin of
+        teleportation.
+        - Your budget is a little more limited, but you still want to
+        make this fabulous trip: board the ARIS ship, which will take you
+        will take you to Mars in just ten days.
+        Once you arrive on site, discover our magnificent station, fully glazed,
+        allowing you to discover the magnificent Martian landscape.
+        You will then have the opportunity to carry out activities, discover
+        breathtaking experiences, to stay in magnificent hotels, etc.
+        Here are some examples of activities / experiences:
+        - Aircraft tours in glass tubes to explore sensitive areas
+        of March (volcanic eruption, crater, seas, etc.).
+        - Jet pack flights in specialized areas to discover the planet
+        - Use of new technologies implemented on attractions
+        - Catering
+        - Hotel
+        - Martian activities of all kinds…..</h3>
+</div>
 
 
 <div id="preloader">
@@ -60,11 +95,11 @@
         eventLag: false
     };
 
-    Pace.on('done', function() {
-        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19,1,0.22,1]));
+    Pace.on('done', function () {
+        $('.p').delay(500).animate({top: '30%', opacity: '0'}, 3000, $.bez([0.19, 1, 0.22, 1]));
 
 
-        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19,1,0.22,1]));
+        $('#preloader').delay(1500).animate({top: '-100%'}, 2000, $.bez([0.19, 1, 0.22, 1]));
 
         TweenMax.from(".title", 2, {
             delay: 1.8,

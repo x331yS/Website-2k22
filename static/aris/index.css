@@ -97,6 +97,12 @@ body{
     width: 100vw;
 }
 
+.more {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
 .about h1 {
     margin: 33% 0 0 0;
 }
@@ -115,6 +121,22 @@ body{
     margin: 60% 0 0 55%;
     letter-spacing: 1px;
     width: 40vw;
-
 }
+
+.more_one {
+    position: absolute;
+    font-size: 28px;
+    margin: 110% 0 0 5%;
+    letter-spacing: 1px;
+    width: 40vw;
+}
+
+.more_second {
+    position: absolute;
+    font-size: 28px;
+    margin: 110% 0 0 55%;
+    letter-spacing: 1px;
+    width: 40vw;
+}
+
 
