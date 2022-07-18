@@ -23,6 +23,20 @@ h1 {
     color: #101010;
 }
 
+.title {
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.home {
+    color: #101010;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 1000;
+    cursor: pointer;
+}
+
 body{
     margin:0px;
     padding:0px;
