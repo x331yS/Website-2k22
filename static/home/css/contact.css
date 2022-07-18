@@ -6,7 +6,7 @@
 .google-map {
     position: relative;
     display: flex;
-    top: 50%;
+    /*top: 5%;*/
     justify-content: center;
     align-items: center;
     width: var(--circle-diameter);
@@ -29,8 +29,137 @@
     pointer-events: visibleStroke;
 }
 
-#contact:hover .google-map {
+.google-map:hover {
     width: 100vw;
     height: 50vh;
     border-radius: 0;
+}
+#form {
+    height: 40%;
+    min-height: 40%;
+    padding: 50px 15px;
+}
+
+#form .contain{
+    max-width: 1900px;
+    min-height: 600px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 50px -10px #d6d6d6;
+    background-color: #ffffff;
+}
+
+#form .contain .title {
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 60px;
+}
+.h6{
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+#form .contain .title h3{
+    font-size: 2.8em;
+}
+
+#form .contain form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#form .contain form input {
+    width: 45%;
+
+}
+#form .contain form input,
+#form .contain form textarea {
+    margin: 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0346fc;
+    transition: 0.2s;
+
+}
+#form .contain form textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 60px;
+
+}
+
+#form .contain form button {
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0346fc;
+    color: #ffffff;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+#form .contain form button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px 0 #d6d6d6;
+}
+
+@media screen and (max-width: 500px) {
+    #form .contain form {
+        flex-direction: column;
+        width: 95%;
+    }
+    #form .contain form input{
+        width: 100%;
+    }
+    #form .contain .title h6{
+        font-size: 1em;
+    }
+    #form .contain .title h3{
+        font-size: 2em;
+    }
+
+}
+@media screen and (max-width: 1600px) {
+    #form {
+        padding: 30px;
+    }
+    #form .contain{
+        padding: 10px;
+    }
+    h6 {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+}
+
+.btnOutline {
+    display: block;
+    text-decoration: none;
+    color: #0346fc;
+    border: 2px solid #0346fc;
+    border-radius: 6px;
+    width: 250px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+.btnOutline:hover {
+    color: white;
+    background: #0346fc;
 }

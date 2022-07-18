@@ -497,6 +497,22 @@
 
 
     <section id="contact" class="slide one">
+        <h1 class="h6"> - Contact - </h1>
+        <div id="form">
+        <div class="contain">
+            <div class="title">
+                <h3>Get in touch</h3>
+            </div>
+            <form action="/home/php/sendmail.php" method="post">
+                <input type="text" name="firstName" placeholder="Enter your First Name" required="">
+                <input type="text" name="lastName" placeholder="Enter your Last Name" required="">
+                <input type="email" name="email" placeholder="Enter email address" required="">
+                <input type="text" name="subject" placeholder="Enter your subject" required="">
+                <textarea name="message" placeholder="Message" required=""></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        </div>
         <div class="google-map">
             <div class="map-frame">
                 <iframe src="https://maps.google.com/maps?q=Toulouse%20Ynov&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
