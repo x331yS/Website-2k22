@@ -14,7 +14,7 @@
     overflow: hidden;
     border-radius: var(--circle-diameter);
     transition: 5000ms;
-    cursor: grab;
+    /*cursor: grab;*/
 }
 
 .google-map .map-frame {
@@ -90,7 +90,8 @@
     border-bottom: 2px solid #0346fc;
     background:rgba(35, 34, 34, 0.8);
     transition: 0.2s;
-
+    cursor: none;
+    color: #fff;
 }
 #form .contain form textarea {
     width: 100%;
@@ -109,7 +110,7 @@
     color: #ffffff;
     font-weight: bold;
     outline: none;
-    cursor: pointer;
+    cursor: none;
     margin: 0 auto;
     transition: 0.2s;
 }
