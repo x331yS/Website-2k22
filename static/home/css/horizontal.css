@@ -28,7 +28,7 @@
 }
 
 .one {
-    background: linear-gradient(#3c393d,var(--bg)) ;
+    background: linear-gradient(#3c393d 30%,var(--bg)) ;
 }
 .three {
     background: linear-gradient(#343232,#3c393d) ;

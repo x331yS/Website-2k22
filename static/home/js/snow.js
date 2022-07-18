@@ -31,7 +31,7 @@ var snow = {
                 size : o.minSize + o.random(o.maxSize - o.minSize),
                 html : document.createElement("span")
             };
-
+            flake.html.style.zIndex = "10000"
             flake.html.style.position = "absolute";
             flake.html.style.top = flake.y + "px";
             flake.html.style.left = flake.x + "px";

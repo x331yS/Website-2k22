@@ -11,6 +11,7 @@ tl
 let counter = 0;
 const loaderTimer = setInterval(function() {
     counter++;
+    counter++;
     $(".preloader__container__percent").text(counter + "%");
     if(counter == 100){
         clearInterval(loaderTimer);

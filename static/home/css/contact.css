@@ -29,7 +29,7 @@
     pointer-events: visibleStroke;
 }
 
-.google-map:hover {
+#contact:hover .google-map {
     width: 100vw;
     height: 50vh;
     border-radius: 0;
