@@ -13,9 +13,11 @@ $(document).ready(function() {
         $(".loading-page .counter h1.color").css("width", c + "%");
         */
         counter++;
+        counter++;
+        c++;
         c++;
 
-        if(counter === 101) {
+        if(counter === 102) {
             clearInterval(i);
             fadeOutEffect()
             setTimeout(function () {
