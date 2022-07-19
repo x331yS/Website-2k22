@@ -64,26 +64,32 @@
                 </div>
 
                 <div class="nav__links">
-                    <a href="/" class="nav__link">00. Resume</a>
-                    <a href="/" class="active nav__link">01. Home</a>
-                    <a href="#about-me" class=" nav__link">02. About Me</a>
-                    <a href="#projects" class="nav__link">03. Projects</a>
+                    <a href="/" id="language_navbar_resume" class="nav__link">00. Resume</a>
+                    <a href="/" id="language_navbar_resume_fr" class="nav__link">00. Resumé</a>
+                    <a href="/" id="language_navbar_home" class="active nav__link">01. Home</a>
+                    <a href="/" id="language_navbar_home_fr" class="active nav__link">01. Accueil</a>
+                    <a href="#about-me" id="language_navbar_about" class=" nav__link">02. About Me</a>
+                    <a href="#about-me" id="language_navbar_about_fr" class=" nav__link">02. À propos de moi</a>
+                    <a href="#projects" id="language_navbar_projet" class="nav__link">03. Projects</a>
+                    <a href="#projects" id="language_navbar_projet_fr" class="nav__link">03. Projets</a>
                     <a href="#contact" class="nav__link">04. Contact</a>
 
                 </div>
             </div>
-            <h3 class="email contact vertical-writing">florian.lejosne@ynov.com</h3>
+            <h3 class="email contact vertical-writing" onclick="replaceLanguage()">florian.lejosne@ynov.com</h3>
             <span class="tag html"></span>
             <span class="tag body"></span>
             <div class="front-text">
                 <h1><span id="text1"></span></h1>
                 <h1><span id="text2"></span></h1>
                 <span class="tag h1"></span>
-                <h1 class="name">I'm Florian, web developer</h1>
+                <h1 id="language_title" class="name">I'm Florian, web developer</h1>
+                <h1 id="language_title_fr" class="name">Florian, développeur web</h1>
                 <span class="tag h1_end"></span>
             </div>
             <span class="tag h2"></span>
-            <h2 class="gray-text typing-demo">Fullstack Developer / CEO of Sweby Studio.</h2>
+            <h2 id="language_description" class="gray-text typing-demo">Fullstack Developer / CEO of Sweby Studio.</h2>
+            <h2 id="language_description_fr" class="gray-text typing-demo">Fullstack Developpeur / PDG Sweby Studio.</h2>
             <span class="tag h2_end"></span>
             <div class="waviy gray-text"><a class="scroll-color_first" href="#about-me">
                 <p><span style="--i:1">s</span>
@@ -146,7 +152,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="social_list" href="frindex.html">
+                        <a class="social_list" onclick="replaceLanguage()">
                             <svg width="103.701" height="71.1" viewBox="0 0 103.701 71.1" xmlns="http://www.w3.org/2000/svg">
                                 <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="#000" stroke-width="0.25mm" style="stroke:#ffffff;stroke-width:0.25mm;fill: white">
                                     <path d="M 68.7 47 L 68.3 51.2 Q 67.534 58.627 66.798 63.181 A 73.485 73.485 0 0 1 66.35 65.7 Q 65.591 69.533 64.355 70.306 A 1.217 1.217 0 0 1 63.7 70.5 A 7.817 7.817 0 0 1 61.855 70.261 Q 60.219 69.863 58.25 68.8 A 25.119 25.119 0 0 1 54.015 65.946 A 22.33 22.33 0 0 1 52.75 64.8 Q 51.023 63.11 50.565 61.852 A 2.497 2.497 0 0 1 50.4 61 A 13.98 13.98 0 0 1 50.558 59.378 Q 51.148 55.071 53.939 41.2 A 1847.545 1847.545 0 0 1 55.3 34.5 Q 55.853 31.922 57.041 25.994 A 2251.893 2251.893 0 0 0 57.25 24.95 Q 58.493 18.734 59.016 15.698 A 96.427 96.427 0 0 0 59.1 15.2 L 55.4 15.8 A 9.512 9.512 0 0 1 52.307 8.91 A 12.199 12.199 0 0 1 52.3 8.5 Q 52.3 5.4 54 2.1 Q 62.1 0 70.4 0 A 59.253 59.253 0 0 1 81.287 0.968 A 50.585 50.585 0 0 1 86.75 2.3 A 33.187 33.187 0 0 1 93.202 4.995 A 25.505 25.505 0 0 1 99 9.35 A 16.065 16.065 0 0 1 103.693 20.649 A 21.044 21.044 0 0 1 103.7 21.2 Q 103.7 29.5 97.2 35.45 A 26.376 26.376 0 0 1 90.416 39.868 Q 85.237 42.268 78.1 43.4 A 59.154 59.154 0 0 0 83.427 47.872 A 45.888 45.888 0 0 0 88.15 50.95 Q 92.016 53.132 97.436 55.168 A 109.444 109.444 0 0 0 100.9 56.4 A 13.312 13.312 0 0 1 101.244 58.518 A 16.539 16.539 0 0 1 101.3 59.9 A 12.392 12.392 0 0 1 100.783 63.558 A 10.024 10.024 0 0 1 98.5 67.5 A 10.352 10.352 0 0 1 94.829 69.983 Q 93.339 70.6 91.511 70.917 A 21.09 21.09 0 0 1 90.2 71.1 Q 83.1 67 77.6 60.9 Q 72.1 54.8 68.7 47 Z M 31.3 44.1 L 18.8 45 Q 18 50.1 17.2 57.1 Q 16.3 64.6 15.6 67.55 Q 15.123 69.56 14.229 70.2 A 1.558 1.558 0 0 1 13.3 70.5 Q 11.342 70.5 8.985 69.427 A 18.808 18.808 0 0 1 7.65 68.75 A 23.858 23.858 0 0 1 3.903 66.195 A 20.589 20.589 0 0 1 2.25 64.65 A 16.006 16.006 0 0 1 1.319 63.596 Q 0.453 62.515 0.156 61.649 A 2.62 2.62 0 0 1 0 60.8 A 8.58 8.58 0 0 1 0.05 59.972 Q 0.229 58.193 1.043 54.236 A 165.588 165.588 0 0 1 1.05 54.2 Q 2.1 49.1 3.4 43.2 A 739.856 739.856 0 0 0 5.306 34.777 Q 7.599 24.339 8.418 18.759 A 62.55 62.55 0 0 0 8.7 16.6 L 4.5 16.9 A 7.61 7.61 0 0 1 1.486 14.011 A 9.049 9.049 0 0 1 1.45 13.95 Q 0.3 12 0.3 9.7 A 9.553 9.553 0 0 1 2.748 3.302 A 12.83 12.83 0 0 1 3.4 2.6 Q 12.819 2.463 20.56 2.231 A 711.9 711.9 0 0 0 27.25 2 A 218.841 218.841 0 0 0 34.476 1.602 Q 40.175 1.188 44.8 0.5 Q 46.7 1.6 47.65 3.55 Q 48.6 5.5 48.6 7.8 Q 48.6 9.8 47.8 11.8 Q 47 13.8 45.7 15.1 Q 34.3 15.3 24.2 16.1 A 167.566 167.566 0 0 0 23.929 17.263 Q 23.486 19.187 22.649 22.935 A 2731.992 2731.992 0 0 0 22.1 25.4 A 53.538 53.538 0 0 0 21.993 25.896 Q 21.748 27.059 21.102 30.221 A 3078.385 3078.385 0 0 0 20.8 31.7 Q 31.011 30.842 37.125 29.436 A 51.871 51.871 0 0 0 37.7 29.3 A 8.261 8.261 0 0 1 40.245 31.633 A 8.026 8.026 0 0 1 40.75 32.45 Q 41.8 34.4 41.8 36.7 Q 41.8 38.8 40.95 40.65 A 7.888 7.888 0 0 1 39.711 42.583 A 6.955 6.955 0 0 1 38.6 43.6 Q 36.7 43.8 34.85 43.9 Q 33 44 31.3 44.1 Z M 70.6 33.7 A 36.394 36.394 0 0 0 76.337 32.679 Q 79.439 31.849 81.945 30.476 A 20.536 20.536 0 0 0 83.55 29.5 A 14.874 14.874 0 0 0 86.089 27.382 Q 87.541 25.84 88.153 24.081 A 8.093 8.093 0 0 0 88.6 21.4 A 5.545 5.545 0 0 0 86.906 17.399 A 8.721 8.721 0 0 0 85.65 16.35 A 10.54 10.54 0 0 0 82.434 14.879 Q 81.014 14.483 79.323 14.358 A 21.998 21.998 0 0 0 77.7 14.3 A 24.854 24.854 0 0 0 75.58 14.395 A 31.803 31.803 0 0 0 73.8 14.6 A 4802.054 4802.054 0 0 0 73.447 16.632 Q 72.226 23.669 72.298 23.408 A 0.336 0.336 0 0 0 72.3 23.4 A 292.256 292.256 0 0 0 71.006 31.032 A 334.844 334.844 0 0 0 70.6 33.7 Z"
@@ -676,13 +682,14 @@
     </section>
 </section>
 </body>
-
+<script src="static/home/js/language.js"></script>
 <script type="text/javascript" src="static/home/js/snow.js"></script>
 <script type="text/javascript">
     window.onload = function () {
         snow.init(20);
     };
 </script>
+
 <script type="text/javascript">
     const el = document.querySelectorAll('.nav__links a');
     for (let i = 0; i < el.length; i++) {

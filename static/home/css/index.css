@@ -50,6 +50,20 @@ h1 {
     padding-left: 4rem;
 }
 
+#language_title_fr, #language_navbar_about_fr, #language_navbar_resume_fr, #language_navbar_projet_fr, #language_navbar_home_fr, #language_description_fr {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .tag {
     color: #6e6e70;
     position: absolute;
