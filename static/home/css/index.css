@@ -50,7 +50,17 @@ h1 {
     padding-left: 4rem;
 }
 
-#language_title_fr, #language_navbar_about_fr, #language_navbar_resume_fr, #language_navbar_projet_fr, #language_navbar_home_fr, #language_description_fr {
+#language_title_fr,
+#language_navbar_about_fr,
+#language_navbar_resume_fr,
+#language_navbar_projet_fr,
+#language_navbar_home_fr,
+#language_description_fr,
+#language_letter_fr,
+#language_about_fr,
+#language_about_second_fr,
+#language_about_third_fr,
+#language_about_four_fr {
     display: none;
 }
 
