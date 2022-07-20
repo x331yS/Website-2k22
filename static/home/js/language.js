@@ -105,6 +105,9 @@ function replaceFrench() {
             document.getElementById('language_getintouch').style.display = "none";
             document.getElementById('language_getintouch_fr').style.display = "block";
 
+            document.getElementById('language_preloader').style.display = "none";
+            document.getElementById('language_preloader_fr').style.display = "block";
+
             // document.getElementById('language_last_project').style.display = "none";
             document.getElementById('language_last_project').setAttribute('style',"display:none!important");
 

@@ -85,13 +85,15 @@ h1 {
 #language_redpanda_fr,
 #language_getintouch_fr,
 #language_form_fr,
-#language_last_project_fr
-{
+#language_last_project_fr,
+#language_preloader_fr {
     display: none;
 }
+
 #language_form_fr {
-    display: none!important;
+    display: none !important;
 }
+
 .tag {
     color: #6e6e70;
     position: absolute;
