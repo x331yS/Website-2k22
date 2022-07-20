@@ -88,7 +88,9 @@ h1 {
 {
     display: none;
 }
-
+#language_form_fr {
+    display: none!important;
+}
 .tag {
     color: #6e6e70;
     position: absolute;
