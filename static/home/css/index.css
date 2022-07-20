@@ -18,14 +18,17 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 .section-1 {
     width: 100vw;
     height: 100vh;
 }
+
 h1 {
     padding: 0;
     margin: 0;
 }
+
 #text1, #text2 {
     font-family: "Poppins", sans-serif;
     position: absolute;
@@ -40,10 +43,12 @@ h1 {
     margin-top: 17rem;
 
 }
+
 .name {
     font-family: "Poppins", sans-serif;
     padding-top: 6rem;
 }
+
 .name-two {
     font-family: "Poppins", sans-serif;
     /*padding-top: 2rem;*/
@@ -77,9 +82,8 @@ h1 {
 #language_projet_photo_fr,
 #language_projet_code_fr,
 #language_sartre_fr,
-#language_redpanda_fr
-
-{
+#language_redpanda_fr,
+#language_getintouch_fr {
     display: none;
 }
 
@@ -96,14 +100,17 @@ h1 {
 .html {
     top: 10rem;
 }
+
 .body {
     top: 13rem;
     left: 23rem;
 }
+
 .h1 {
     left: 26rem;
     top: 17rem;
 }
+
 .p_start {
     top: 39rem;
     left: 30rem;
@@ -113,14 +120,17 @@ h1 {
     top: 43rem;
     left: 77.5rem;
 }
+
 .h1_end {
     left: 92rem;
     top: 26.5rem;
 }
+
 .h2 {
     top: 33rem;
     left: 30rem;
 }
+
 .h2_end {
     left: 30rem;
 }
@@ -145,6 +155,7 @@ h1 {
     overflow: hidden;
     border-right: 3px solid;
 }
+
 @keyframes typing {
     from {
         width: 0
@@ -160,18 +171,23 @@ h1 {
 .html::before {
     content: "<html>";
 }
+
 .body::before {
     content: "<body>";
 }
+
 .h2::before {
     content: "<h2>";
 }
+
 .h1::before {
     content: "<h1>";
 }
+
 .h1_end::before {
     content: "</h1>";
 }
+
 .p::before {
     content: "<p>";
 }
@@ -183,9 +199,11 @@ h1 {
 .h2_end::before {
     content: "</h2>";
 }
+
 .p_start::before {
     content: "<p>";
 }
+
 .button-end::before {
     content: "</button>";
 }
@@ -193,27 +211,33 @@ h1 {
 .html-end {
     top: 45rem;
 }
+
 .body-end {
     top: 42rem;
     left: 23rem;
 }
+
 .body-end::before {
     content: "</body>";
 }
+
 .html-end::before {
     content: "</html>";
 }
+
 #projects {
     visibility: hidden;
 }
+
 #pointer {
     visibility: hidden;
 }
+
 .sticky {
     box-sizing: initial;
     display: flex;
     position: sticky;
-    padding-right: 0!important;
+    padding-right: 0 !important;
     top: 40px;
     width: 100%;
 }

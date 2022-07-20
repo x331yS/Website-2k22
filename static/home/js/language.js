@@ -111,6 +111,9 @@ function replaceFrench() {
             document.getElementById('language_lonewolf').style.display = "none";
             document.getElementById('language_lonewolf_fr').style.display = "block";
 
+            document.getElementById('language_getintouch').style.display = "none";
+            document.getElementById('language_getintouch_fr').style.display = "block";
+
 
         }
 
