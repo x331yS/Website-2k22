@@ -102,30 +102,18 @@ function replaceFrench() {
             document.getElementById('language_projet_code').style.display = "none";
             document.getElementById('language_projet_code_fr').style.display = "block";
 
-            document.getElementById('language_sartre').style.display = "none";
-            document.getElementById('language_sartre_fr').style.display = "block";
-            // document.getElementById('language_sartre_fr').setAttribute('style',"display:block");
-
-
-            document.getElementById('language_redpanda').style.display = "none";
-            document.getElementById('language_redpanda_fr').style.display = "block";
-
-            document.getElementById('language_lonewolf').style.display = "none";
-            document.getElementById('language_lonewolf_fr').style.display = "block";
-
             document.getElementById('language_getintouch').style.display = "none";
             document.getElementById('language_getintouch_fr').style.display = "block";
 
-            document.getElementById('language_last_project').style.display = "none";
+            // document.getElementById('language_last_project').style.display = "none";
             document.getElementById('language_last_project').setAttribute('style',"display:none!important");
 
-            document.getElementById('language_last_project_fr').style.display = "block";
+            // document.getElementById('language_last_project_fr').style.display = "block";
             document.getElementById('language_last_project_fr').setAttribute('style',"display:block!important");
 
 
 
             document.getElementById('language_form').style.display = "none";
-            document.getElementById('language_form_fr').style.display = "flex!important";
             document.getElementById('language_form_fr').setAttribute('style',"display:flex!important");
 
 
