@@ -8,7 +8,7 @@ General Styles
     position: absolute;
     width: 100%;
     height: 100vh;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #3c393d 10%, rgba(60, 57, 61, 0.9) 12%, rgba(60, 57, 61, 0.7) 15%, rgba(60, 57, 61, 0.5) 17%, rgba(60, 57, 61, 0.2) 20%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 60%, #3c393d 99%);
