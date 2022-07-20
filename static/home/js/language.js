@@ -123,7 +123,8 @@ function replaceFrench() {
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
-            console.log("good boy")
+            document.getElementById('language_izanami_navbar').style.display = "none";
+            document.getElementById('language_izanami_navbar_fr').style.display = "block";
 
         } else {
             console.log("good")
