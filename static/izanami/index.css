@@ -349,7 +349,8 @@ body {
 #language_name_fr,
 #language_izanami_mikoto_fr,
 #language_information_fr,
-#language_trailer_fr{
+#language_trailer_fr,
+#language_svg_fr{
     display: none;
 }
 
