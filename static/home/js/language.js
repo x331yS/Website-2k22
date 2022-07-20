@@ -1,19 +1,20 @@
 function replaceLanguage() {
-    if (getImageDirectoryByFullURL() === "en" || getImageDirectoryByFullURL() == "") {
+    if (getEndURL() === "en" || getEndURL() === "") {
         window.location.replace("#fr")
         replaceFrench()
     }
+    console.log(getEndURL())
 
 
 }
 
-function getImageDirectoryByFullURL() {
+function getEndURL() {
     return window.location.href.split('#').pop()
 }
 
 
 function replaceFrench() {
-    if (getImageDirectoryByFullURL() === "fr") {
+    if (getEndURL() === "fr") {
         if (window.location.href.split('/').pop() === "#fr") {
             // 1st
 
