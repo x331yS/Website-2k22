@@ -164,6 +164,40 @@ function replaceFrench() {
 
 function replaceEnglish() {
     if (window.location.href.split('/').pop() === "izanami.html#en") {
+        document.getElementById('language_izanami_navbar').style.display = "block";
+        document.getElementById('language_izanami_navbar_fr').style.display = "none";
+
+        document.getElementById('language_description').style.display = "block";
+        document.getElementById('language_description_fr').style.display = "none";
+
+        document.getElementById('language_description_second').style.display = "block";
+        document.getElementById('language_description_second_fr').style.display = "none";
+
+
+        document.getElementById('language_use').style.display = "block";
+        document.getElementById('language_use_fr').style.display = "none";
+
+        document.getElementById('language_use_second').style.display = "block";
+        document.getElementById('language_use_second_fr').style.display = "none";
+
+
+        document.getElementById('language_izanami_navbar_second').style.display = "block";
+        document.getElementById('language_izanami_navbar_second_fr').style.display = "none";
+
+        document.getElementById('language_name').style.display = "block";
+        document.getElementById('language_name_fr').style.display = "none";
+
+        document.getElementById('language_izanami_mikoto').style.display = "block";
+        document.getElementById('language_izanami_mikoto_fr').style.display = "none";
+
+        document.getElementById('language_information').style.display = "block";
+        document.getElementById('language_information_fr').style.display = "none";
+
+        document.getElementById('language_trailer').style.display = "block";
+        document.getElementById('language_trailer_fr').style.display = "none";
+
+        document.getElementById('language_svg').style.display = "block";
+        document.getElementById('language_svg_fr').style.display = "none";
 
     }
     if (window.location.href.split('/').pop() === "#en") {
