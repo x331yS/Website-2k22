@@ -126,6 +126,9 @@ function replaceFrench() {
             document.getElementById('language_izanami_navbar').style.display = "none";
             document.getElementById('language_izanami_navbar_fr').style.display = "block";
 
+            document.getElementById('language_description').style.display = "none";
+            document.getElementById('language_description_fr').style.display = "block";
+
         } else {
             console.log("good")
         }

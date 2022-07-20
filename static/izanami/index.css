@@ -340,6 +340,7 @@ body {
     margin-top: 10%;
 }
 
-#language_izanami_navbar_fr {
+#language_izanami_navbar_fr,
+#language_description_fr{
     display: none;
 }
