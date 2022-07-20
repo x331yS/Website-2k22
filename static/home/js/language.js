@@ -116,11 +116,11 @@ function replaceFrench() {
             document.getElementById('language_getintouch').style.display = "none";
             document.getElementById('language_getintouch_fr').style.display = "block";
 
-            document.getElementById('home-slider').style.display = "none";
-            document.getElementById('home-slider').setAttribute('style',"display:none!important");
+            document.getElementById('language_last_project').style.display = "none";
+            document.getElementById('language_last_project').setAttribute('style',"display:none!important");
 
-            document.getElementById('home-slider_fr').style.display = "block";
-            document.getElementById('home-slider_fr').setAttribute('style',"display:block!important");
+            document.getElementById('language_last_project_fr').style.display = "block";
+            document.getElementById('language_last_project_fr').setAttribute('style',"display:block!important");
 
 
 
