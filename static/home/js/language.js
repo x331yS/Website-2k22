@@ -153,8 +153,6 @@ function replaceFrench() {
         document.getElementById('language_trailer').style.display = "none";
         document.getElementById('language_trailer_fr').style.display = "block";
 
-        document.getElementById('language_svg').style.display = "none";
-        document.getElementById('language_svg_fr').style.display = "block";
 
     } else {
         console.log("good")
@@ -195,9 +193,6 @@ function replaceEnglish() {
 
         document.getElementById('language_trailer').style.display = "block";
         document.getElementById('language_trailer_fr').style.display = "none";
-
-        document.getElementById('language_svg').style.display = "block";
-        document.getElementById('language_svg_fr').style.display = "none";
 
     }
     if (window.location.href.split('/').pop() === "#en") {
