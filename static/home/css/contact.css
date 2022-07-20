@@ -43,8 +43,8 @@
 #form .contain{
     max-width: 1900px;
     min-height: 600px;
-    margin: 0;
     display: flex;
+    margin: 0;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,10 @@
     box-sizing: border-box;
     box-shadow: 0 10px 50px -10px rgba(35, 34, 34, 0.8);
     background-color: rgba(35, 34, 34, 0.8);
+}
+
+#language_form {
+    /*display: flex;*/
 }
 
 #form .contain .title {
