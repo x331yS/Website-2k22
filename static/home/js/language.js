@@ -1,5 +1,6 @@
 function replaceLanguage() {
     if (window.location.href.split('/').pop() === "#fr" ){
+        window.location.replace("#en")
         replaceEnglish()
     } else {
         window.location.replace("#fr")
@@ -135,7 +136,7 @@ function replaceFrench() {
     }
 }
 function replaceEnglish() {
-    if (getfullURL() === "en" || window.location.href.split('/').pop() === "") {
+    if (getfullURL() === "fr" || window.location.href.split('/').pop() === "") {
             // 1st
 
             // Title
