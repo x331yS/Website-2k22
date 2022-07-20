@@ -337,7 +337,9 @@ body {
 }
 
 .second_video {
+    width: ;
     margin-top: 10%;
+    padding: 50px;
 }
 
 #language_izanami_navbar_fr,
