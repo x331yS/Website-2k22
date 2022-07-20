@@ -95,6 +95,9 @@ function replaceFrench() {
 
             document.getElementById('language_projet_musical').style.display = "none";
             document.getElementById('language_projet_musical_fr').style.display = "block";
+
+            document.getElementById('language_projet_photo').style.display = "none";
+            document.getElementById('language_projet_photo_fr').style.display = "block";
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
