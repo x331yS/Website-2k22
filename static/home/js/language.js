@@ -73,6 +73,11 @@ function replaceFrench() {
 
             document.getElementById('language_musicproject').style.display = "none";
             document.getElementById('language_musicproject_fr').style.display = "block";
+
+            // 3rd
+
+            document.getElementById('language_allproject').style.display = "none";
+            document.getElementById('language_allproject_fr').style.display = "block";
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
