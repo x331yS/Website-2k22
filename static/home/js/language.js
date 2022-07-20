@@ -14,7 +14,7 @@ function getfullURL() {
 
 
 function replaceFrench() {
-    if (getfullURL() === "fr") {
+    // if (getfullURL() === "fr") {
         if (window.location.href.split('/').pop() === "#fr") {
             // 1st
 
@@ -133,10 +133,11 @@ function replaceFrench() {
         } else {
             console.log("good")
         }
-    }
+    // }
 }
+
 function replaceEnglish() {
-    if (getfullURL() === "en") {
+    // if (getfullURL() === "en") {
             // 1st
 
             // Title
@@ -246,7 +247,7 @@ function replaceEnglish() {
 
 
 
-        }
+        // }
 }
 
 
