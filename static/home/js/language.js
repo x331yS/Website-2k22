@@ -1,5 +1,5 @@
 function replaceLanguage() {
-
+    window.location.replace("#fr")
     replaceFrench()
 
 }
