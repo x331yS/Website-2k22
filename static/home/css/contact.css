@@ -72,9 +72,11 @@
 }
 
 #form .contain form {
+    justify-content: space-between;
+}
+#language_form, #language_form_fr {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 #form .contain form input {
     width: 45%;
