@@ -125,6 +125,7 @@ function replaceFrench() {
 
 
             document.getElementById('language_form').style.display = "none";
+            document.getElementById('language_form_fr').style.display = "flex";
             document.getElementById('language_form_fr').setAttribute('style',"display:flex!important");
 
 
