@@ -152,6 +152,9 @@ function replaceFrench() {
             document.getElementById('language_information').style.display = "none";
             document.getElementById('language_information_fr').style.display = "block";
 
+            document.getElementById('language_trailer').style.display = "none";
+            document.getElementById('language_trailer_fr').style.display = "block";
+
         } else {
             console.log("good")
         }
