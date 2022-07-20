@@ -98,6 +98,9 @@ function replaceFrench() {
 
             document.getElementById('language_projet_photo').style.display = "none";
             document.getElementById('language_projet_photo_fr').style.display = "block";
+
+            document.getElementById('language_projet_code').style.display = "none";
+            document.getElementById('language_projet_code_fr').style.display = "block";
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
