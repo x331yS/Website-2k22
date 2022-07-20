@@ -1,6 +1,9 @@
 function replaceLanguage() {
-    window.location.replace("#fr")
-    replaceFrench()
+    if (getImageDirectoryByFullURL() === "en" || getImageDirectoryByFullURL() == "") {
+        window.location.replace("#fr")
+        replaceFrench()
+    }
+
 
 }
 
