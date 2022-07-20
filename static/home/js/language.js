@@ -163,10 +163,10 @@ function replaceFrench() {
 }
 
 function replaceEnglish() {
-    if (window.location.href.split('/').pop() === "izanami.html#fr") {
+    if (window.location.href.split('/').pop() === "izanami.html#en") {
 
     }
-    if (window.location.href.split('/').pop() === "#fr") {
+    if (window.location.href.split('/').pop() === "#en") {
         // 1st
 
         // Title
