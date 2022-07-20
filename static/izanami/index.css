@@ -356,6 +356,7 @@ body {
 .social_list {
     position: absolute;
     width: 11px;
-    margin: 5rem 0 0 30vw;
+    margin: 4rem 0 0 30vw;
     cursor: pointer;
+    font-size: 9px;
 }
