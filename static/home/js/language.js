@@ -114,6 +114,10 @@ function replaceFrench() {
             document.getElementById('language_getintouch').style.display = "none";
             document.getElementById('language_getintouch_fr').style.display = "block";
 
+            document.getElementById('language_form').style.display = "none";
+            document.getElementById('language_form_fr').style.display = "block";
+
+
 
         }
 

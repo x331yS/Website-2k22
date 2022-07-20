@@ -582,7 +582,15 @@
                     <h3 id="language_getintouch">Get in touch</h3>
                     <h3 id="language_getintouch_fr">Entrer en contact</h3>
                 </div>
-                <form action="/home/php/sendmail.php" method="post">
+                <form id="language_form" action="/home/php/sendmail.php" method="post">
+                    <input type="text" name="firstName" placeholder="Enter your First Name" required="">
+                    <input type="text" name="lastName" placeholder="Enter your Last Name" required="">
+                    <input type="email" name="email" placeholder="Enter email address" required="">
+                    <input type="text" name="subject" placeholder="Enter your subject" required="">
+                    <textarea name="message" placeholder="Message" required=""></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <form id="language_form_fr" action="/home/php/sendmail.php" method="post">
                     <input type="text" name="firstName" placeholder="Enter your First Name" required="">
                     <input type="text" name="lastName" placeholder="Enter your Last Name" required="">
                     <input type="email" name="email" placeholder="Enter email address" required="">
