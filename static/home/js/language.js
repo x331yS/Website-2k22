@@ -139,6 +139,10 @@ function replaceFrench() {
             document.getElementById('language_use_second').style.display = "none";
             document.getElementById('language_use_second_fr').style.display = "block";
 
+
+            document.getElementById('language_izanami_navbar_second').style.display = "none";
+            document.getElementById('language_izanami_navbar_second_fr').style.display = "block";
+
         } else {
             console.log("good")
         }
