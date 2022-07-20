@@ -146,6 +146,9 @@ function replaceFrench() {
             document.getElementById('language_name').style.display = "none";
             document.getElementById('language_name_fr').style.display = "block";
 
+            document.getElementById('language_izanami_mikoto').style.display = "none";
+            document.getElementById('language_izanami_mikoto_fr').style.display = "block";
+
         } else {
             console.log("good")
         }
