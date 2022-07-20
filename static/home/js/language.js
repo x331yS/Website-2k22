@@ -104,7 +104,7 @@ function replaceFrench() {
 
             document.getElementById('language_sartre').style.display = "none";
             document.getElementById('language_sartre_fr').style.display = "block";
-            document.getElementById('language_sartre_fr').setAttribute('style',"display:block");
+            // document.getElementById('language_sartre_fr').setAttribute('style',"display:block");
 
 
             document.getElementById('language_redpanda').style.display = "none";
