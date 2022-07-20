@@ -339,3 +339,7 @@ body {
 .second_video {
     margin-top: 10%;
 }
+
+#language_izanami_navbar_fr {
+    display: none;
+}
