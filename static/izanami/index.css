@@ -342,6 +342,8 @@ body {
 
 #language_izanami_navbar_fr,
 #language_description_fr,
-#language_description_second_fr{
+#language_description_second_fr,
+#language_use_second_fr,
+#language_use_fr {
     display: none;
 }

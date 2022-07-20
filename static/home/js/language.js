@@ -132,6 +132,13 @@ function replaceFrench() {
             document.getElementById('language_description_second').style.display = "none";
             document.getElementById('language_description_second_fr').style.display = "block";
 
+
+            document.getElementById('language_use').style.display = "none";
+            document.getElementById('language_use_fr').style.display = "block";
+
+            document.getElementById('language_use_second').style.display = "none";
+            document.getElementById('language_use_second_fr').style.display = "block";
+
         } else {
             console.log("good")
         }
