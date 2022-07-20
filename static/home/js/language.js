@@ -246,13 +246,6 @@ function replaceEnglish() {
 
 
         }
-
-        if (window.location.href.split('/').pop() === "izanami.html#fr") {
-            console.log("good boy")
-
-        } else {
-            console.log("good")
-        }
 }
 
 
