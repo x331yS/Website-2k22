@@ -26,6 +26,13 @@ Home Slider
     position: relative;
 
 }
+#home-slider_fr {
+
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+
+}
 
 #project-last .swiper-container {
     height: 100%;
@@ -218,6 +225,10 @@ Home Slider
 
 @media screen and (max-width: 640px) {
     #project-last #home-slider {
+        height: 86vh;
+        width: 96vw;
+    }
+    #project-last #home-slider_fr {
         height: 86vh;
         width: 96vw;
     }
