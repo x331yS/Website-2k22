@@ -1,20 +1,20 @@
 function replaceLanguage() {
-    if (getEndURL() === "en" || getEndURL() === "") {
+    if (window.location.href.split('/').pop() === "#en" || window.location.href.split('/').pop() === "") {
         window.location.replace("#fr")
         replaceFrench()
     }
-    console.log(getEndURL())
+    console.log(getfullURL())
 
 
 }
 
-function getEndURL() {
+function getfullURL() {
     return window.location.href.split('#').pop()
 }
 
 
 function replaceFrench() {
-    if (getEndURL() === "fr") {
+    if (getfullURL() === "fr") {
         if (window.location.href.split('/').pop() === "#fr") {
             // 1st
 
