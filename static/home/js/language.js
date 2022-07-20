@@ -107,6 +107,11 @@ function replaceFrench() {
 
             document.getElementById('language_redpanda').style.display = "none";
             document.getElementById('language_redpanda_fr').style.display = "block";
+
+            document.getElementById('language_lonewolf').style.display = "none";
+            document.getElementById('language_lonewolf_fr').style.display = "block";
+
+
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
