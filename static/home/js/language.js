@@ -308,5 +308,5 @@ function replaceEnglish() {
 replaceFrench()
 
 function copierTexte(event) {
-    
+
 }
