@@ -355,15 +355,7 @@ body {
 
 .social_list {
     position: absolute;
-}
-.navbar {
-    color: #fff;
-    position: absolute;
-    margin: 6rem 0 0 70vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-style: italic;
-    font-size: 11px;
+    width: 11px;
+    margin: 5rem 0 0 30vw;
     cursor: pointer;
 }
