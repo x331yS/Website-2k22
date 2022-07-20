@@ -8,13 +8,8 @@ function replaceLanguage() {
     }
 }
 
-function getfullURL() {
-    return window.location.href.split('#').pop()
-}
-
 
 function replaceFrench() {
-    // if (getfullURL() === "fr") {
         if (window.location.href.split('/').pop() === "#fr") {
             // 1st
 
@@ -133,11 +128,10 @@ function replaceFrench() {
         } else {
             console.log("good")
         }
-    // }
+
 }
 
 function replaceEnglish() {
-    // if (getfullURL() === "en") {
             // 1st
 
             // Title
@@ -244,10 +238,6 @@ function replaceEnglish() {
 
             document.getElementById('language_form_fr').style.display = "none";
             document.getElementById('language_form').setAttribute('style',"display:flex!important");
-
-
-
-        // }
 }
 
 
