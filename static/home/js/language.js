@@ -117,7 +117,12 @@ function replaceFrench() {
             document.getElementById('language_getintouch_fr').style.display = "block";
 
             document.getElementById('home-slider').style.display = "none";
+            document.getElementById('home-slider').setAttribute('style',"display:none!important");
+
             document.getElementById('home-slider_fr').style.display = "block";
+            document.getElementById('home-slider_fr').setAttribute('style',"display:block!important");
+
+
 
             document.getElementById('language_form').style.display = "none";
             document.getElementById('language_form_fr').setAttribute('style',"display:flex!important");
