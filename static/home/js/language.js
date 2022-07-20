@@ -136,7 +136,7 @@ function replaceFrench() {
     }
 }
 function replaceEnglish() {
-    if (getfullURL() === "fr" || window.location.href.split('/').pop() === "") {
+    if (getfullURL() === "en") {
             // 1st
 
             // Title
