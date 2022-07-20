@@ -60,19 +60,18 @@ h1 {
 #language_about_fr,
 #language_about_second_fr,
 #language_about_third_fr,
-#language_about_four_fr {
+#language_about_four_fr,
+#language_work_fr,
+#language_work_second_fr,
+#language_undercube_fr,
+#language_latestproject_fr,
+#language_musicproject_fr,
+#language_codingproject_fr,
+#language_photoproject_fr
+
+{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
 
 .tag {
     color: #6e6e70;
