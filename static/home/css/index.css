@@ -85,7 +85,7 @@ h1 {
 #language_redpanda_fr,
 #language_getintouch_fr,
 #language_form_fr {
-    display: none;
+    display: none!important;
 }
 
 .tag {
