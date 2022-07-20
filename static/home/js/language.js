@@ -78,6 +78,19 @@ function replaceFrench() {
 
             document.getElementById('language_allproject').style.display = "none";
             document.getElementById('language_allproject_fr').style.display = "block";
+
+            //Navbar 2
+            document.getElementById('language_navbar_home_second').style.display = "none";
+            document.getElementById('language_navbar_home_fr_second').style.display = "block";
+
+            document.getElementById('language_navbar_resume_second').style.display = "none";
+            document.getElementById('language_navbar_resume_fr_second').style.display = "block";
+
+            document.getElementById('language_navbar_about_second').style.display = "none";
+            document.getElementById('language_navbar_about_fr_second').style.display = "block";
+
+            document.getElementById('language_navbar_projet_second').style.display = "none";
+            document.getElementById('language_navbar_projet_fr_second').style.display = "block";
         }
 
         if (window.location.href.split('/').pop() === "izanami.html#fr") {
