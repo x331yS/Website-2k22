@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Roboto:100");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
@@ -119,16 +118,6 @@ h1 {
 .h1 {
     left: 26rem;
     top: 17rem;
-}
-
-.p_start {
-    top: 39rem;
-    left: 30rem;
-}
-
-.p_end {
-    top: 43rem;
-    left: 77.5rem;
 }
 
 .h1_end {
