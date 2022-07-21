@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
 
 
 /** {*/
@@ -351,7 +354,6 @@ h1 {
     height: 24px;
     margin:-20px auto 30px auto;
     animation: pulse 2s infinite;
-    display:block;
     color: #fff;
     opacity: 0;
 }
@@ -436,8 +438,6 @@ li a svg:hover {
 }
 
 /* BUTTON */
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100");
 * {
     margin: 0;
     padding: 0;
@@ -662,5 +662,14 @@ a {
 
 .button-container-4 .mas {
     color: #ffffff;
+}
+
+/* EMAIL */
+
+.email {
+    margin-left: 48%;
+    font-family: "La Belle Aurore", sans-serif;
+    letter-spacing: 2px;
+    position: absolute;
 }
 
