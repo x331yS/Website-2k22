@@ -187,24 +187,9 @@ h1 {
     content: "</h1>";
 }
 
-.p::before {
-    content: "<p>";
-}
-
-.p_end::before {
-    content: "</p>";
-}
 
 .h2_end::before {
     content: "</h2>";
-}
-
-.p_start::before {
-    content: "<p>";
-}
-
-.button-end::before {
-    content: "</button>";
 }
 
 .html-end {
