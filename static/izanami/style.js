@@ -1,3 +1,4 @@
+// /**** LOADER JS ****/
 let video = document.getElementById('video');
 
 $(document).ready(function() {
@@ -60,7 +61,7 @@ function loaderDelete() {
 
 }
 
-/**** VIDEO JS ****/
+// /**** VIDEO JS ****/
 
 function videoRestart() {
     let em = document.getElementById("button_more");
@@ -79,7 +80,7 @@ function videoRestart() {
 
 }
 
-/**** INTRO JS ****/
+// /**** INTRO JS ****/
 
 const LANDING = {};
 LANDING.intro = document.querySelector(".button-page");
@@ -103,7 +104,7 @@ const svgAnimation = () => {
     });
 };
 
-/**** CARD JS ****/
+// /**** CARD JS ****/
 
 document.querySelector(".button-page__loader").addEventListener("click", svgAnimation);
 
