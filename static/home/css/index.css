@@ -1278,17 +1278,6 @@ Home Slider
     transform: translate3d(0px, 0, 0);
 }
 
-.swiper-container-multirow > .swiper-wrapper {
-    -webkit-box-lines: multiple;
-    -moz-box-lines: multiple;
-    flex-wrap: wrap;
-}
-
-.swiper-container-free-mode > .swiper-wrapper {
-    transition-timing-function: ease-out;
-    margin: 0 auto;
-}
-
 .swiper-slide {
     /*outline: 22px solid #3c393d;*/
     cursor: none;
