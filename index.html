@@ -83,7 +83,7 @@
 
                 </div>
             </div>
-            <h3 onclick="copierTexte(event)" class="email contact vertical-writing" >florian.lejosne@ynov.com</h3>
+            <h3 onclick="copierTexte()" class="email contact vertical-writing" >florian.lejosne@ynov.com</h3>
             <span class="tag html"></span>
             <span class="tag body"></span>
             <div class="front-text">
@@ -662,7 +662,7 @@
         </div>
         <div class="google-map">
             <div class="map-frame">
-                <iframe src="https://maps.google.com/maps?q=Toulouse%20Ynov&t=&z=13&ie=UTF8&iwloc=&output=embed&z=5" width="600" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://maps.google.com/maps?q=Toulouse%20Ynov&t=&z=13&ie=UTF8&iwloc=&output=embed&z=5" width="600" height="650" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </section>
@@ -824,7 +824,7 @@
     const el = document.querySelectorAll('.nav__links a');
     for (let i = 0; i < el.length; i++) {
         el[i].onclick = function () {
-            var c = 0;
+            let c = 0;
             while (c < el.length) {
                 el[c++].className = 'nav__link';
             }
