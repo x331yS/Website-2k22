@@ -76,8 +76,47 @@ function videoRestart() {
     }
 
 }
-function videoRestartNav() {
-    let element = document.querySelector('.wrapper .video');
-    element.style.clipPath = "--clip-path-clicked"
-    videoRestart()
-}
+// function videoRestartNav() {
+//     let element = document.querySelector('.wrapper .video');
+//     element.style.clipPath = "--clip-path-clicked"
+//     videoRestart()
+// }
+
+const LANDING = {};
+LANDING.intro = document.querySelector(".button-page");
+LANDING.path = LANDING.intro.querySelector("path");
+
+const svgAnimation = () => {
+    console.log("Animation");
+
+    anime({
+        targets: LANDING.intro,
+        duration: 2000,
+        easing: "easeInOutSine",
+        translateY: "-200vh"
+    });
+
+    anime({
+        targets: LANDING.path,
+        duration: 1500,
+        easing: "easeInOutSine",
+        d: LANDING.path.getAttribute("pathdata:id")
+    });
+};
+
+document.querySelector(".button-page__loader").addEventListener("click", svgAnimation);
+
+"use strict";
+let body = document.getElementById("card")
+let tilted = false;
+let toggleTilt = function () {
+    tilted = !tilted;
+    if (tilted)
+        body.classList.add('details');
+    else
+        body.classList.remove('details');
+};
+body.addEventListener('click', toggleTilt);
+body.addEventListener('touchstart', toggleTilt);
+if (location.pathname.match(/fullcpgrid/i))
+    setTimeout(toggleTilt, 1000);
