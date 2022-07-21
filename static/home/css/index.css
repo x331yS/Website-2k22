@@ -294,3 +294,144 @@ h1 {
     background: #3c393d;
 }
 
+/* SCROLL*/
+
+.waviy {
+    position: relative;
+    top: 15rem;
+    width: fit-content;
+    left: 70%;
+}
+.waviy span{
+    position: relative;
+    display: inline-block;
+    letter-spacing: -5px;
+    animation: flip 4s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+    0%,10% {
+        transform: rotateY(360deg)
+    }
+}
+
+
+.arrow {
+    border: solid #8d8d8d;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.vertical-writing {
+    writing-mode: vertical-rl;
+    margin: 0 0 5px 0;
+}
+
+.nav-down {
+    position: absolute;
+    height: 340px;
+    top: 120vh;
+    left:98%;
+    bottom:0;
+    margin: auto;
+    text-align:center;
+}
+
+
+.chevron {
+    display:block;
+    width: 24px;
+    height: 24px;
+    margin:-20px auto 30px auto;
+    animation: pulse 2s infinite;
+    display:block;
+    color: #fff;
+    opacity: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(0, 0);
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: translate(0, 10px);
+        opacity: 0.99;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+}
+
+/* FOOTER*/
+
+.social::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: 10px 0 0 0;
+    background-color: #6e6e70;
+}
+
+li a svg {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    list-style: none;
+}
+li a {
+    cursor: none;
+}
+.social {
+    margin-top: 0;
+    margin-right: 92%;
+    list-style-image: initial;
+    list-style-type: none;
+}
+
+.social_list {
+    display: flex;
+    padding: 10px 0 5px 0;
+    /*padding-left: 50px;*/
+}
+
+li a svg:hover {
+    transform: translateY(-3px);
+}
+
+/* FOOTER RIGHT*/
+
+.contact {
+    z-index: 1000;
+    list-style-image: initial;
+    list-style-type: none;
+    margin: 6% 0 0 0;
+}
+
+.contact::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 200px;
+    margin: -26vh -20px 0 0;
+    background-color: #6e6e70;
+}
+
