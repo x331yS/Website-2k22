@@ -2979,8 +2979,6 @@ path#f3-l9 {
     transform: rotateX(90deg);
     z-index: -1;
     -webkit-filter: blur(20px);
-    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="20" /></filter></svg>#filter');
-    -webkit-filter: blur(20px);
     filter: blur(20px);
     left: 0;
     right: 0;
