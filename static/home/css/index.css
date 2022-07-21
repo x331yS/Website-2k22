@@ -3123,22 +3123,6 @@ path#f3-l9 {
     }
 }
 
-.btnOutline {
-    display: block;
-    text-decoration: none;
-    color: #0346fc;
-    border: 2px solid #0346fc;
-    border-radius: 6px;
-    width: 250px;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-}
-.btnOutline:hover {
-    color: white;
-    background: #0346fc;
-}
-
 /* PROJECT POPUP*/
 
 .projects-popup {
