@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>Florian Lejosne</title>
     <link rel="stylesheet" type="text/css" href="static/home/css/index.css"/>
-
-
 </head>
 <audio id="testAudio" hidden src='static/home/assets/music/music.mp3' type="audio/mpeg"></audio>
 <body>
@@ -83,7 +81,7 @@
 
                 </div>
             </div>
-            <h3 onclick="copierTexte()" class="email contact vertical-writing" >florian.lejosne@ynov.com</h3>
+            <h3 onclick="copierTexte()" class="email contact vertical-writing">florian.lejosne@ynov.com</h3>
             <span class="tag html"></span>
             <span class="tag body"></span>
             <div class="front-text">
@@ -834,11 +832,12 @@
 </script>
 <script>
     let email = "florian.lejosne@ynov.com"
+
     function copierTexte() {
         // 2. On copie le texte dans le presse-papier
         navigator.clipboard.writeText(email)
         // 4. On affiche l'alert
-        alert("Email copié !")
+        alert("Email copied !")
 
     }
 </script>
