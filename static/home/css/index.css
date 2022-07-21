@@ -704,3 +704,165 @@ body .custom-pointer .inner {
 body .custom-pointer .outer {
     fill: #111920;
 }
+
+/* NAVBAR */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 90px;
+    width: 100vw;
+    position: fixed;
+    /*background-color: #343232;*/
+    transition: all 0.5s ease-in-out;
+}
+
+.logo_1 div{
+    padding-left: 50px;
+    margin-top: -40px;
+}
+.logo span{
+    font-family: 'Poppins', sans-serif;
+    font-size:1vw;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+.space {
+    margin: 0 5px 0 5px;
+}
+
+.nav__links {
+    margin-top: 40px;
+    font-family: "La Belle Aurore", sans-serif;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+}
+.nav__link {
+    cursor: none;
+    margin: 0 10px;
+    color: white;
+    padding: 9px 15px;
+    border-radius: 100px;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+}
+
+.nav__link.active,
+.nav__link:hover {
+    background-color: #504f4f;
+}
+
+
+.logo-effect::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    margin: -8vh 0 0 0;
+    background-color: #6e6e70;
+}
+.disappear:hover span {
+    color:transparent;
+    text-shadow: 0px 0px 0px white;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.disappear span:nth-child(1){
+    animation-name: disappearleft;
+    animation-delay: .3s;
+}
+.disappear span:nth-child(2){
+    animation-name: disappearleft;
+    animation-delay: .5s;
+}
+.disappear span:nth-child(3){
+    animation-name: disappearight;
+    animation-delay: .8s;
+}
+.disappear span:nth-child(4){
+    animation-name: disappearleft;
+    animation-delay: 1s;
+}
+.disappear span:nth-child(5){
+    animation-name: disappearight;
+    animation-delay: 1.3s;
+}
+.disappear span:nth-child(6){
+    animation-name: disappearight;
+    animation-delay: 1.5s;
+}
+
+
+/*Second disapear*/
+.disappear_1:hover span {
+    animation-duration: 10s;
+}
+
+
+.disappear span:nth-child(7){
+    animation-name: disappearleft;
+    animation-delay: 1.8s;
+}
+.disappear span:nth-child(8){
+    animation-name: disappearleft;
+    animation-delay: 2s;
+}
+.disappear span:nth-child(9){
+    animation-name: disappearleft;
+    animation-delay: 2.3s;
+
+}
+.disappear span:nth-child(10){
+    animation-name: disappearleft;
+    animation-delay: 2.5s;
+
+}
+.disappear span:nth-child(11){
+    animation-name: disappearleft;
+    animation-delay: 2.8s;
+
+}
+.disappear span:nth-child(12){
+    animation-name: disappearleft;
+    animation-delay: 3s;
+
+}
+.disappear span:nth-child(13){
+    animation-name: disappearight;
+    animation-delay: 3.3s;
+
+}
+.disappear span:nth-child(14){
+    animation-name: disappearleft;
+    animation-delay: 3.5s;
+
+}
+.disappear span:nth-child(15){
+    animation-name: disappearight;
+    animation-delay: 3.8s;
+
+}
+.disappear span:nth-child(16){
+    animation-name: disappearight;
+    animation-delay: 4s;
+
+}
+@keyframes disappearleft{
+    50% {transform: skew(50deg) translateY(-200%);
+        text-shadow: 0px 0px 50px;
+        opacity: 0;
+    }
+}
+@keyframes disappearight{
+    50% {transform: skew(-50deg) translateY(-200%);
+        text-shadow: 0px 0px 50px;
+        opacity: 0;
+    }
+}
+
