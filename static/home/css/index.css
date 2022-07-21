@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Roboto:100");
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 
 /** {*/
@@ -706,7 +707,6 @@ body .custom-pointer .outer {
 }
 
 /* NAVBAR */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 .navbar {
     display: flex;
@@ -769,7 +769,7 @@ body .custom-pointer .outer {
 }
 .disappear:hover span {
     color:transparent;
-    text-shadow: 0px 0px 0px white;
+    text-shadow: 0 0 0 white;
     animation-duration: 6s;
     animation-iteration-count: infinite;
 }
@@ -855,13 +855,13 @@ body .custom-pointer .outer {
 }
 @keyframes disappearleft{
     50% {transform: skew(50deg) translateY(-200%);
-        text-shadow: 0px 0px 50px;
+        text-shadow: 0 0 50px;
         opacity: 0;
     }
 }
 @keyframes disappearight{
     50% {transform: skew(-50deg) translateY(-200%);
-        text-shadow: 0px 0px 50px;
+        text-shadow: 0 0 50px;
         opacity: 0;
     }
 }
