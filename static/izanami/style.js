@@ -60,6 +60,8 @@ function loaderDelete() {
 
 }
 
+/**** VIDEO JS ****/
+
 function videoRestart() {
     let em = document.getElementById("button_more");
     let  button = window.getComputedStyle(em).getPropertyValue("opacity");
@@ -76,11 +78,8 @@ function videoRestart() {
     }
 
 }
-// function videoRestartNav() {
-//     let element = document.querySelector('.wrapper .video');
-//     element.style.clipPath = "--clip-path-clicked"
-//     videoRestart()
-// }
+
+/**** INTRO JS ****/
 
 const LANDING = {};
 LANDING.intro = document.querySelector(".button-page");
@@ -103,6 +102,8 @@ const svgAnimation = () => {
         d: LANDING.path.getAttribute("pathdata:id")
     });
 };
+
+/**** CARD JS ****/
 
 document.querySelector(".button-page__loader").addEventListener("click", svgAnimation);
 
