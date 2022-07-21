@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,500i,600,600i,700,700i |Cormorant+SC:400,500,600,700');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
 
 
 /** {*/
@@ -2645,4 +2646,196 @@ path#f3-l9 {
 .popout span.title_coding:nth-last-child(3n) {
     -webkit-animation-delay: -0.5s;
     animation-delay: -0.5s;
+}
+
+/* ABOUT ME */
+
+.four ul {
+    list-style: none;
+}
+
+.separate::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 530px;
+    margin: 0 0 0 25%;
+    background-color: #6e6e70;
+}
+.under_cube::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 330px;
+    height: 1px;
+    margin: -6% 0 0 130%;
+    background-color: #6e6e70;
+}
+.mark::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    margin: -18vh 0 0 65vw;
+    background-color: #6e6e70;
+}
+.mark::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 200px;
+    height: 1px;
+    margin: -13vh 0 0 60vw;
+    background-color: #6e6e70;
+}
+
+.tag_two {
+    color: #6e6e70;
+    position: absolute;
+    left: 52%;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.section {
+    top: 3%;
+}
+
+.section_end {
+    top: 95.5%;
+}
+
+.image {
+    left: 82%;
+    top: 13%;
+}
+
+.image_end {
+    left: 89.5%;
+    top: 47%;
+}
+
+.about-me_h2 {
+    top: 7%;
+    left: 53%;
+}
+
+.about-me_div {
+    top: 50%;
+    left: 53%;
+}
+
+.about-me_div_end {
+    top: 64%;
+    left: 64%;
+}
+
+.about-me_div_second {
+    top: 69.5%;
+    left: 53%;
+}
+
+.about-me_div_end_second {
+    top: 83%;
+    left: 64%;
+}
+
+.about-me_h2_end {
+    top: 44%;
+    left: 57%;
+}
+
+.about-me_h2::before {
+    content: "<h2>";
+}
+
+.about-me_div::before,
+.about-me_div_second::before {
+    content: "<div>";
+}
+
+.about-me_div_end::before,
+.about-me_div_end_second::before {
+    content: "</div>";
+}
+
+.about-me_h2_end::before {
+    content: "</h2>";
+}
+
+
+.section::before {
+    content: "<section>";
+}
+
+.image::before {
+    content: "<img>";
+}
+
+.image_end::before {
+    content: "</img>";
+}
+
+.section_end::before {
+    content: "</section>";
+}
+
+.second_h1 {
+    font-family: 'Titillium Web', sans-serif;
+    padding-top: 91px;
+    padding-left: 9rem;
+}
+
+.third_h1 {
+    padding: 3rem 0 0 0;
+    text-align: center;
+
+}
+.third_h1::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 1px;
+    height: 200px;
+    background-color: #6e6e70;
+    margin: -48px 0 0 76px;
+}
+
+.center {
+    font-family: 'Titillium Web', sans-serif;
+    width: 42rem;
+    font-size: 1rem;
+    text-align: justify;
+    margin: 1rem 0 0 9rem;
+}
+
+.second_h3 {
+    margin: 4rem 0 0 0;
+}
+
+.ul_list ul {
+    columns: 2;
+    margin-top: 1rem;
+}
+
+.under_cube {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 32rem;
+    left: 84%;
+}
+
+.scroll-color {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: none;
+}
+
+.scroll-color_first {
+    color: #8d8d8d8d;
+    text-decoration: none;
+    cursor: none;
 }
