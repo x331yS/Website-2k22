@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,500i,600,600i,700,700i |Cormorant+SC:400,500,600,700');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
+@import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
 
 
 /** {*/
@@ -3170,4 +3171,174 @@ path#f3-l9 {
 .btnOutline:hover {
     color: white;
     background: #0346fc;
+}
+
+/* PROJECT POPUP*/
+
+.projects-popup {
+    cursor: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 50%;
+    transition: 0.25s;
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg") no-repeat bottom;
+    color: white;
+    width: 50%;
+}
+.projects-popup .options {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+    min-width: 600px;
+    max-width: 900px;
+    width: calc(100% - 100px);
+    height: 400px;
+}
+@media screen and (max-width: 718px) {
+    .projects-popup .options {
+        min-width: 520px;
+    }
+    .projects-popup .options .option:nth-child(5) {
+        display: none;
+    }
+}
+@media screen and (max-width: 638px) {
+    .projects-popup .options {
+        min-width: 440px;
+    }
+    .projects-popup .options .option:nth-child(4) {
+        display: none;
+    }
+}
+@media screen and (max-width: 558px) {
+    .projects-popup .options {
+        min-width: 360px;
+    }
+    .projects-popup .options .option:nth-child(3) {
+        display: none;
+    }
+}
+@media screen and (max-width: 478px) {
+    .projects-popup .options {
+        min-width: 280px;
+    }
+    .projects-popup .options .option:nth-child(2) {
+        display: none;
+    }
+}
+.projects-popup .options .option {
+    position: relative;
+    overflow: hidden;
+    min-width: 60px;
+    margin: 10px;
+    background: var(--optionBackground, var(--defaultBackground, #E6E9ED));
+    background-size: auto 100%;
+    background-position: center;
+    cursor: none;
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.projects-popup .options .option:nth-child(1) {
+    --defaultBackground:#ED5565;
+}
+.projects-popup .options .option:nth-child(2) {
+    --defaultBackground:#FC6E51;
+}
+.projects-popup .options .option:nth-child(3) {
+    --defaultBackground:#FFCE54;
+}
+.projects-popup .options .option:nth-child(4) {
+    --defaultBackground:#2ECC71;
+}
+.projects-popup .options .option:nth-child(5) {
+    --defaultBackground:#5D9CEC;
+}
+.projects-popup .options .option:nth-child(6) {
+    --defaultBackground:#AC92EC;
+}
+.projects-popup .options .option.active {
+    flex-grow: 10000;
+    transform: scale(1);
+    max-width: 600px;
+    margin: 0;
+    border-radius: 40px;
+    background-size: auto 100%;
+}
+.projects-popup .options .option.active .shadow {
+    box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
+}
+.projects-popup .options .option.active .label {
+    bottom: 20px;
+    left: 20px;
+}
+.projects-popup .options .option.active .label .info > div {
+    left: 0;
+    opacity: 1;
+}
+.projects-popup .options .option:not(.active) {
+    flex-grow: 1;
+    border-radius: 30px;
+}
+.projects-popup .options .option:not(.active) .shadow {
+    bottom: -40px;
+    box-shadow: inset 0 -120px 0 -120px black, inset 0 -120px 0 -100px black;
+}
+.projects-popup .options .option:not(.active) .label {
+    bottom: 10px;
+    left: 10px;
+}
+.projects-popup .options .option:not(.active) .label .info > div {
+    left: 20px;
+    opacity: 0;
+}
+.projects-popup .options .option .shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.projects-popup .options .option .label {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 40px;
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
+}
+.projects-popup .options .option .label .icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    color: var(--defaultBackground);
+}
+.projects-popup .options .option .label .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: white;
+    white-space: pre;
+}
+.projects-popup .options .option .label .info > div {
+    position: relative;
+    transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95), opacity 0.5s ease-out;
+}
+.projects-popup .options .option .label .info .main {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.projects-popup .options .option .label .info .sub {
+    transition-delay: 0.1s;
 }
