@@ -1259,9 +1259,6 @@ Home Slider
 .paragraph span {
     margin-left: 25%;
 }
-.swiper-container-no-flexbox .swiper-slide {
-    float: left;
-}
 
 .swiper-container-vertical > .swiper-wrapper {
     flex-direction: column;
