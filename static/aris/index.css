@@ -724,3 +724,8 @@ h1, h2,h3 {
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
+
+#language_h2one_fr,
+#language_h2second_fr{
+    display: none;
+}
