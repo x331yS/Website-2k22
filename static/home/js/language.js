@@ -162,6 +162,12 @@ function replaceFrench() {
         document.getElementById('language_h2second').style.display = "none";
         document.getElementById('language_h2second_fr').style.display = "block";
 
+        document.getElementById('language_aris_project').style.display = "none";
+        document.getElementById('language_aris_project_fr').style.display = "block";
+
+        document.getElementById('language_moreabout').style.display = "none";
+        document.getElementById('language_moreabout_fr').style.display = "block";
+
     }else {
         console.log("good")
     }

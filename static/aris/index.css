@@ -726,6 +726,8 @@ h1, h2,h3 {
 }
 
 #language_h2one_fr,
-#language_h2second_fr{
+#language_h2second_fr,
+#language_aris_project_fr,
+#language_moreabout_fr{
     display: none;
 }
