@@ -117,9 +117,9 @@ body{
     width: 100vw;
 }
 
-.social_list {
-    position: absolute;
-    margin: 30% 0 0 15%;
+#language_letter_fr, #language_letter {
+    margin: 100% 0 0 15%;
+    top: 50%;
 
 }
 
