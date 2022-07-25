@@ -120,6 +120,8 @@ body{
 #language_letter_fr, #language_letter {
     margin: 55% 0 0 50%;
     position: absolute;
+    z-index: 1000000;
+    cursor: pointer;
 
 }
 
