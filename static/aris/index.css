@@ -117,6 +117,15 @@ body{
     width: 100vw;
 }
 
+.social_list {
+    position: absolute;
+    font-size: 26px;
+    margin: 30% 0 0 5%;
+    letter-spacing: 1px;
+    width: 40vw;
+
+}
+
 
 
 .about h1 {
