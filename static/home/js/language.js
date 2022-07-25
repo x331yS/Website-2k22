@@ -171,9 +171,6 @@ function replaceFrench() {
         document.getElementById('language_home').style.display = "none";
         document.getElementById('language_home_fr').style.display = "block";
 
-        document.getElementById('language_letter').style.display = "none";
-        document.getElementById('language_letter_fr').style.display = "block";
-
     }else {
         console.log("good")
     }
