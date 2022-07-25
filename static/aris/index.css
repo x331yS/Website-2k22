@@ -119,7 +119,7 @@ body{
 
 #language_letter_fr, #language_letter {
     margin: 100% 0 0 15%;
-    top: 50%;
+    position: absolute;
 
 }
 
