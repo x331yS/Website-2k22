@@ -154,7 +154,15 @@ function replaceFrench() {
         document.getElementById('language_trailer_fr').style.display = "block";
 
 
-    } else {
+    }
+    if (window.location.href.split('/').pop() === "aris.html#fr") {
+        document.getElementById('language_h2one').style.display = "none";
+        document.getElementById('language_h2one_fr').style.display = "block";
+
+        document.getElementById('language_h2second').style.display = "none";
+        document.getElementById('language_h2second_fr').style.display = "block";
+
+    }else {
         console.log("good")
     }
 
