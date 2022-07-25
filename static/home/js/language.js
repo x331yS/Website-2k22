@@ -168,6 +168,9 @@ function replaceFrench() {
         document.getElementById('language_moreabout').style.display = "none";
         document.getElementById('language_moreabout_fr').style.display = "block";
 
+        document.getElementById('language_home').style.display = "none";
+        document.getElementById('language_home_fr').style.display = "block";
+
     }else {
         console.log("good")
     }
