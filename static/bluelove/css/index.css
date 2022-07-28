@@ -68,7 +68,7 @@ html {
 }
 
 .gradient {
-    background: linear-gradient(45deg, red, blue);
+    background: linear-gradient(45deg, #ee00ff, blue);
     mix-blend-mode: multiply;
 }
 
