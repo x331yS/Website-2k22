@@ -34,7 +34,7 @@ html {
 
 .text-effect {
     overflow: hidden;
-    position: relative;
+    position: absolute;
     filter: contrast(110%) brightness(190%);
 }
 
