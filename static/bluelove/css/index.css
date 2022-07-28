@@ -9,7 +9,7 @@ html {
     display: none;
 }
 .container {
-    position: absolute;
+    position: relative;
     max-width: 1600px;
     margin-top: 5000px;
     display: flex;
