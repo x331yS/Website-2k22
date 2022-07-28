@@ -28,6 +28,10 @@ html {
     object-fit: cover;
     transition-duration: 300ms;
 }
+.img-holder img:nth-child(2n) {
+    max-height: 12rem;
+
+}
 
 .img-holder img:hover {
     transform: scale(1.1);
