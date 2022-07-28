@@ -9,6 +9,7 @@ html {
     display: none;
 }
 .container {
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -34,7 +35,7 @@ html {
 
 .text-effect {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     filter: contrast(110%) brightness(190%);
 }
 
