@@ -43,6 +43,8 @@ html {
 .text-effect {
     overflow: hidden;
     position: relative;
+    width: 100vw;
+    height: 100vh;
     filter: contrast(110%) brightness(190%);
 }
 
