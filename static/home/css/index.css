@@ -3160,10 +3160,10 @@ path#f3-l9 {
     transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
 }
 .projects-popup .options .option:nth-child(1) {
-    --defaultBackground:#ED5565;
+    --defaultBackground: #002bff;
 }
 .projects-popup .options .option:nth-child(2) {
-    --defaultBackground:#FC6E51;
+    --defaultBackground: #0028ff;
 }
 .projects-popup .options .option:nth-child(3) {
     --defaultBackground:#FFCE54;
