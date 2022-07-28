@@ -11,8 +11,6 @@ html {
 .container {
     position: relative;
     max-width: 1600px;
-    /*width: 100vw;*/
-    clear: both;
     display: flex;
     flex-wrap: wrap;
 }
