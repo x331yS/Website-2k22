@@ -3102,7 +3102,7 @@ path#f3-l9 {
     font-family: "Montserrat", sans-serif;
     margin-left: 50%;
     transition: 0.25s;
-    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg") no-repeat bottom;
+    background: linear-gradient(180deg, #3c393d 10%,rgba(60,57,61,0.9) 12%,rgba(60,57,61,0.7) 15%,rgba(60,57,61,0.5) 17%,rgba(60,57,61,0.2) 20%,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 60%, #3c393d 99%), url("../../bluelove/assets/img/0.jpg") no-repeat bottom;
     color: white;
     width: 50%;
 }
