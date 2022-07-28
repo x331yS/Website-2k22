@@ -28,6 +28,13 @@ html {
     object-fit: cover;
     transition-duration: 300ms;
 }
+.img-holder_2 img {
+    display: block;
+    min-width: 100%;
+    max-height: 16rem;
+    object-fit: cover;
+    transition-duration: 300ms;
+}
 
 .img-holder img:hover {
     transform: scale(1.1);
