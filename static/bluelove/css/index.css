@@ -16,7 +16,7 @@ html {
     flex-wrap: wrap;
 }
 .img-holder {
-    flex-grow:1;
+    flex-grow:3;
     margin: 0.3rem;
     overflow: hidden;
 }
