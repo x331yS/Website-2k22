@@ -9,8 +9,9 @@ html {
     display: none;
 }
 .container {
-    position: relative;
+    position: absolute;
     max-width: 1600px;
+    margin-top: 5000px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -35,8 +36,6 @@ html {
 .text-effect {
     overflow: hidden;
     position: relative;
-    width: 100vw;
-    height: 100vh;
     filter: contrast(110%) brightness(190%);
 }
 
