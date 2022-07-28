@@ -39,12 +39,14 @@ html {
 .img-holder img:hover {
     transform: scale(1.1);
 }
+.section-1 {
+    width: 100vw;
+    height: 100vh;
+}
 
 .text-effect {
     overflow: hidden;
     position: relative;
-    width: 100vw;
-    height: 100vh;
     filter: contrast(110%) brightness(190%);
 }
 
