@@ -23,6 +23,8 @@ html, body {
 body {
   background-color: #3498db;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .bubbles {
