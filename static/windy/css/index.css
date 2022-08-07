@@ -23,6 +23,8 @@ html, body {
 
 body {
   background-color: #3498db;
+  margin-bottom: 10px;
+
 }
 
 .bubbles {
@@ -53,7 +55,6 @@ body {
   width: 100vw;
   height: 100vh;
   position: absolute;
-  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
 }
