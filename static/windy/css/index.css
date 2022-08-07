@@ -22,9 +22,6 @@ html, body {
 
 body {
   background-color: #3498db;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
 }
 
 .bubbles {
@@ -54,7 +51,6 @@ body {
 .container {
 
   position: absolute;
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
 }
