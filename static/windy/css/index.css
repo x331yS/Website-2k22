@@ -16,6 +16,7 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+
 }
 
 /* Essential CSS - Makes the effect work */
@@ -49,7 +50,7 @@ body {
   display: none;
 }
 .container {
-
+  max-width: 1900px;
   position: absolute;
   display: flex;
   flex-wrap: wrap;
