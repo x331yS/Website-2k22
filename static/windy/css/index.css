@@ -52,7 +52,7 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  margin: 0 -50px 0 50px!important;
+  margin: 0 -50px 0 0!important;
   position: absolute;
   display: flex;
   flex-wrap: wrap;
