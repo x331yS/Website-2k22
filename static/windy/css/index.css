@@ -49,6 +49,7 @@ body {
   display: none;
 }
 .container {
+  justify-content: center;
   position: absolute;
   max-width: 1600px;
   display: flex;
