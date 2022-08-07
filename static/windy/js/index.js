@@ -1,6 +1,3 @@
-// Created for an Articles on:
-// https://www.html5andbeyond.com/bubbling-text-effect-no-canvas-required/
-
 jQuery(document).ready(function($){
 
     // Define a blank array for the effect positions. This will be populated based on width of the title.
