@@ -1,46 +1,44 @@
-$('.button--bubble').each(function() {
-    var $circlesTopLeft = $(this).parent().find('.circle.top-left');
-    var $circlesBottomRight = $(this).parent().find('.circle.bottom-right');
+// Created for an Articles on:
+// https://www.html5andbeyond.com/bubbling-text-effect-no-canvas-required/
 
-    var tl = new TimelineLite();
-    var tl2 = new TimelineLite();
+jQuery(document).ready(function($){
 
-    var btTl = new TimelineLite({ paused: true });
+    // Define a blank array for the effect positions. This will be populated based on width of the title.
+    var bArray = [];
+    // Define a size array, this will be used to vary bubble sizes
+    var sArray = [4,6,8,10];
 
-    tl.to($circlesTopLeft, 1.2, { x: -25, y: -25, scaleY: 2, ease: SlowMo.ease.config(0.1, 0.7, false) });
-    tl.to($circlesTopLeft.eq(0), 0.1, { scale: 0.2, x: '+=6', y: '-=2' });
-    tl.to($circlesTopLeft.eq(1), 0.1, { scaleX: 1, scaleY: 0.8, x: '-=10', y: '-=7' }, '-=0.1');
-    tl.to($circlesTopLeft.eq(2), 0.1, { scale: 0.2, x: '-=15', y: '+=6' }, '-=0.1');
-    tl.to($circlesTopLeft.eq(0), 1, { scale: 0, x: '-=5', y: '-=15', opacity: 0 });
-    tl.to($circlesTopLeft.eq(1), 1, { scaleX: 0.4, scaleY: 0.4, x: '-=10', y: '-=10', opacity: 0 }, '-=1');
-    tl.to($circlesTopLeft.eq(2), 1, { scale: 0, x: '-=15', y: '+=5', opacity: 0 }, '-=1');
+    // Push the header width values to bArray
+    for (var i = 0; i < $('.bubbles').width(); i++) {
+        bArray.push(i);
+    }
 
-    var tlBt1 = new TimelineLite();
-    var tlBt2 = new TimelineLite();
+    // Function to select random array element
+    // Used within the setInterval a few times
+    function randomValue(arr) {
+        return arr[Math.floor(Math.random() * arr.length)];
+    }
 
-    tlBt1.set($circlesTopLeft, { x: 0, y: 0, rotation: -45 });
-    tlBt1.add(tl);
+    // setInterval function used to create new bubble every 350 milliseconds
+    setInterval(function(){
 
-    tl2.set($circlesBottomRight, { x: 0, y: 0 });
-    tl2.to($circlesBottomRight, 1.1, { x: 30, y: 30, ease: SlowMo.ease.config(0.1, 0.7, false) });
-    tl2.to($circlesBottomRight.eq(0), 0.1, { scale: 0.2, x: '-=6', y: '+=3' });
-    tl2.to($circlesBottomRight.eq(1), 0.1, { scale: 0.8, x: '+=7', y: '+=3' }, '-=0.1');
-    tl2.to($circlesBottomRight.eq(2), 0.1, { scale: 0.2, x: '+=15', y: '-=6' }, '-=0.2');
-    tl2.to($circlesBottomRight.eq(0), 1, { scale: 0, x: '+=5', y: '+=15', opacity: 0 });
-    tl2.to($circlesBottomRight.eq(1), 1, { scale: 0.4, x: '+=7', y: '+=7', opacity: 0 }, '-=1');
-    tl2.to($circlesBottomRight.eq(2), 1, { scale: 0, x: '+=15', y: '-=5', opacity: 0 }, '-=1');
+        // Get a random size, defined as variable so it can be used for both width and height
+        var size = randomValue(sArray);
+        // New bubble appeneded to div with it's size and left position being set inline
+        // Left value is set through getting a random value from bArray
+        $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
 
-    tlBt2.set($circlesBottomRight, { x: 0, y: 0, rotation: 45 });
-    tlBt2.add(tl2);
+        // Animate each bubble to the top (bottom 100%) and reduce opacity as it moves
+        // Callback function used to remove finsihed animations from the page
+        $('.individual-bubble').animate({
+                'bottom': '100%',
+                'opacity' : '-=0.7'
+            }, 3000, function(){
+                $(this).remove()
+            }
+        );
 
-    btTl.add(tlBt1);
-    btTl.to($(this).parent().find('.button.effect-button'), 0.8, { scaleY: 1.1 }, 0.1);
-    btTl.add(tlBt2, 0.2);
-    btTl.to($(this).parent().find('.button.effect-button'), 1.8, { scale: 1, ease: Elastic.easeOut.config(1.2, 0.4) }, 1.2);
 
-    btTl.timeScale(2.6);
+    }, 350);
 
-    $(this).on('mouseover', function() {
-        btTl.restart();
-    });
 });
