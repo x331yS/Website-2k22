@@ -50,7 +50,7 @@ body {
 }
 .container {
   position: absolute;
-  max-width: 1600px;
+  max-width: 1900px;
   display: flex;
   flex-wrap: wrap;
 }
