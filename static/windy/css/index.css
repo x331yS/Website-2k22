@@ -51,7 +51,6 @@ body {
 .container {
   position: absolute;
   max-width: 1600px;
-  margin-top: 6000px;
   display: flex;
   flex-wrap: wrap;
 }
