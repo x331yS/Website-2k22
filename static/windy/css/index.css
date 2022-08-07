@@ -56,7 +56,7 @@ body {
 }
 .img-holder {
   flex-grow:1;
-  margin: 0.5rem;
+  margin: 0.3rem;
   overflow: hidden;
 }
 
